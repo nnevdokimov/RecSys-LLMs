@@ -5,7 +5,7 @@
   "page_checks": [
     {
       "page": 1,
-      "last_content_y": 261.8897637795277,
+      "last_content_y": 225.8897637795277,
       "no_vertical_overflow": true
     },
     {
@@ -25,15 +25,16 @@
     },
     {
       "page": 5,
-      "last_content_y": 90.626722440945,
+      "last_content_y": 65.626722440945,
       "no_vertical_overflow": true
     },
     {
       "page": 6,
-      "last_content_y": 389.8897637795277,
+      "last_content_y": 299.8897637795277,
       "no_vertical_overflow": true
     }
   ],
   "all_pages_visually_reviewed": true,
-  "changed_pages_3_and_6_reviewed_again": true
+  "review_date_msk": "2026-11-01",
+  "latest_changed_page_rechecked": 5
 }

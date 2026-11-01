@@ -5,12 +5,17 @@
   "private_score": 0.44891,
   "public_score": 0.45937,
   "report": "output/pdf/nikolai_evdokimov_midterm_report_FINAL.pdf",
-  "report_sha256": "32d47ef403123c317530aa5d4a56dbc055e03a76acc7e56bbd56c5f7447d0d0b",
+  "report_sha256": "646194d534aaf34158f33125a46ef9b82ea72a3a898d9cdcfa37d73e8a524ef3",
   "actual_submissions": 6,
   "search_rows_including_references": 188,
   "private_target": 0.45,
   "private_target_achieved": false,
   "private_gap": 0.00109,
-  "github_publication_verified": false,
-  "final_session_export_pending_last_turn": true
+  "github_publication_verified": true,
+  "final_session_export_pending_last_turn": true,
+  "publication_status": "verified_local_git_push_and_remote_csv_download",
+  "local_implementation_commit": "173aed2e442447c9f2cc89f86d0ed620b1a0836b",
+  "large_export_requires_instructor_agreement": true,
+  "large_export_agreement_confirmed_in_session": false,
+  "repo_url": "https://github.com/nnevdokimov/RecSys-LLMs"
 }

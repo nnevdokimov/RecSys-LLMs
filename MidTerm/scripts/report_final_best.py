@@ -1,4 +1,4 @@
-"""Five main pages + sources, using actual frozen v4 artifacts; pending score is explicit."""
+"""Five main pages + sources, using the selected v5 and verified publication record."""
 import html
 import json
 from pathlib import Path
@@ -11,6 +11,9 @@ def read(path):return json.loads((ROOT/path).read_text())
 def e(x):return html.escape(str(x))
 
 def build():
+    publication=read('runs/final_review/publication.json') if (ROOT/'runs/final_review/publication.json').exists() else {}
+    repo_url=publication.get('repo_url','https://github.com/dryjins/RecSys-LLMs')
+    assert repo_url.startswith('https://github.com/')
     selection=read('runs/v5_candidate/selection.json')
     checks=read('runs/v5_candidate/submission_checks.json');ex=read('runs/v5_candidate/user_examples.json')
     audit=read('artifacts/data_audit.json');personal=read('report/personal_verification.json')
@@ -30,16 +33,17 @@ def build():
                 self.finish_page();self.c.showPage()
             self.page+=1;self.y=self.h-52
             self.c.setFont('Body',8);self.c.setFillColor(base.GRAY)
-            self.c.drawString(self.x,self.h-26,'LLM4Rec · Индивидуальный экзамен · ФКН · 29–30.10.2026')
+            self.c.drawString(self.x,self.h-26,'LLM4Rec · Индивидуальный экзамен · ФКН · 01.11.2026')
             self.c.drawRightString(self.w-self.x,self.h-26,label)
             self.c.setStrokeColor(base.BLUE);self.c.setLineWidth(.6);self.c.line(self.x,self.h-33,self.w-self.x,self.h-33)
     d=CurrentReport()
     d.page_start('Задача, данные и протокол')
     d.heading('SWEET.TV: время, предпочтения и Top-5',16)
     d.p('Евдокимов Николай Николаевич · nevdokimov@hse.ru · nickevdokimov<br/>Индивидуальный экзамен LLM4Rec / ФКН · 01.11.2026, 19:00 МСК',small=True)
-    d.p(f'<b>Результат.</b> Реализованы popularity, Content-Based Filtering (CBF), Association Rules (AR), implicit ALS и гибриды. '
-        f'Для итоговой сдачи обозначена v5 — лучшая из шести реальных посылок; вложенное обучение: средний MAP@5 по трём временным срезам {selection["mean_map5"]:.5f}; '
-        'её параметры зафиксированы до отправки. '+(f'Именно CSV этой версии получил Kaggle private {outcome["private_score"]:.5f}.' if outcome else '<b>Черновик: кандидат v5 ещё не имеет подтверждённого Kaggle score.</b>'))
+    d.p('<b>Аннотация.</b> Требуется предсказать по неполным логам телеканалов пять будущих предпочитаемых программ для каждого тестового пользователя, сохранив временной порядок и общий протокол сравнения. '
+        'Просмотры сопоставлены с эфирами по каналу и пересечению интервалов; отдельно реализованы popularity, CBF, Association Rules и implicit ALS, затем обучен гибрид LambdaRank. '
+        f'Выбранная из шести отправленных v5 получила MAP@5={selection["split_scores"]["original_10w"]:.5f} на основном hold-out, среднее {selection["mean_map5"]:.5f} по трём срезам и private {outcome["private_score"]:.5f} в Kaggle. '
+        'Расписание и повторные интересы дают полезный сигнал, однако малые приросты на многократно использованной валидации не гарантируют переноса на будущий период.')
     d.heading('1. Данные и интервальные взаимодействия')
     d.table([['Файл','Фактические строки','Назначение'],['dataset11-30', '5 821 987','4914 пользователя, 202 канала'],
              ['export 11–20','1 074 235','5847 положительных ID'],['export 21–30','1 074 394','6363 положительных ID'],
@@ -60,7 +64,7 @@ def build():
         'Основная оценка исключает пустой R; дополнительная считает их AP=0. На основном срезе 22 пустые цели, 1150 целей длины 5; все релевантные ID входят в legal pool. '
         'Код цели Kaggle не опубликован: точное совпадение правил фрагментов/ties не заявляется.',small=True)
 
-    d.page_start('Модели и сравнительные результаты');d.heading('3. Базовые и дополнительные методы')
+    d.page_start('Модели и сравнительные результаты');d.heading('3. Методы и использованные подходы [4-10]')
     d.p('<b>Popularity:</b> число уникальных прошлых зрителей программы. <b>Repeat:</b> персональная частота. <b>CBF:</b> DictVectorizer + TF-IDF по прошлым title/category/genre/director/actors/year, '
         'L2 item/user cosine; веса title/category 1, genre/director 2, actors 1,5, year 0,5; профиль с 28d decay. <b>AR:</b> confidence n(i,j)/(n(i)+20), support≥3, top-100 соседей, sqrt(decayed count), без диагонали. '
         '<b>ALS [4]:</b> 48 факторов, confidence=1+20·log(1+n), λ=5, 12 точных alternating solves, seed 42; наблюдения implicit, включая confidence=1 у отсутствующих взаимодействий.')
@@ -168,9 +172,11 @@ def build():
             'Последний подтверждённый private score 0,44156 относится к другому CSV — v4. Цель 0,45 не достигнута подтверждёнными данными.')
     d.p('Файл: runs/v5_candidate/submission_v5.csv. 1260 строк + header, 2 столбца, ровно 5 уникальных положительных ID в исходном порядке шаблона; '
         'все ID в буквальном тестовом расписании.<br/>SHA-256: '+checks[0]['sha256'],small=True)
-    d.p('Репозиторий: <link href="https://github.com/dryjins/RecSys-LLMs">github.com/dryjins/RecSys-LLMs</link>, каталог MidTerm. '
-        '<b>Пока работа локальная по просьбе студента; публикация кода и точного CSV ещё требуется.</b> Через канал курса: ровно PDF и оригинальный AI-export. '
-        'Сессия продолжается; окончательный экспорт фиксируется после работы.',small=True)
+    publication_note=(f'<b>Код и точный CSV опубликованы; проверен коммит {e(publication["implementation_commit"][:12])} и SHA-256 удалённого CSV.</b> '
+                      if publication.get('verified') else '<b>Публикация пока не подтверждена: GitHub отклонил push nnevdokimov в исходный репозиторий (403); требуется доступный fork или право записи.</b> ')
+    d.p(f'Репозиторий: <link href="{e(repo_url)}">{e(repo_url.removeprefix("https://"))}</link>, каталог MidTerm. '
+        +publication_note+'Через канал курса: ровно PDF и оригинальный AI-export. Сессия продолжается; окончательный экспорт фиксируется после работы.',small=True)
+    d.p('AI-журнал больше 10 MB: FAQ HW требует связаться с преподавателем до сдачи; согласование в этой сессии не подтверждено. Оригинал не изменяется.',small=True)
     d.p('Личная интерпретация студента: «'+e(personal['discussion_v2'])+'»',small=True)
 
     d.page_start('Источники и происхождение материалов');d.heading('Источники и использованная помощь')
@@ -186,7 +192,8 @@ def build():
              ('10','https://lightgbm.readthedocs.io/en/stable/Parameters.html','Официальные параметры LambdaRank, label_gain, truncation и rank_xendcg.')]
     for number,title,note in sources:
         link=f'<link href="{e(title)}">{e(title)}</link>' if title.startswith('http') else e(title)
-        d.p(f'<b>[{number}]</b> {link}<br/>{e(note)}',small=True,gap=9)
+        labels={'1':'«LLM4Rec. Midterm Quiz», слайды задания.','2':'«exam_quiz_FKN»; «Homework Guidelines v1.0», требования курса.','3':'SWEET.TV, «TV program recommender», Kaggle competition.','4':'Y. Hu, Y. Koren and C. Volinsky, «Collaborative Filtering for Implicit Feedback Datasets».','5':'Scikit-learn developers, «HistGradientBoostingClassifier», документация.','6':'Scikit-learn developers, «Feature extraction», документация.','7':'SciPy developers, «Sparse arrays», документация.','8':'DuckDB developers, «CSV overview», документация 2.0.','9':'LightGBM developers, «LGBMRanker», документация.','10':'LightGBM developers, «Parameters», документация.'}
+        d.p(f'<b>[{number}]</b> {e(labels[number])}<br/>'+('[Online]. Available: ' if title.startswith('http') else 'Файл: ')+link+f'<br/>{e(note)}',small=True,gap=8)
     d.p('Документация прочитана для использованных операций; сторонний рекомендательный код, дополнительные данные и готовые модели не подключались. '
         'AI-помощь и собственные рассуждения студента разделены в report/personal_verification.json. Журнал всех расширений: report/EXPERIMENT_JOURNAL.md; '
         'проверка ограничений: report/RULES_AUDIT.md. Материалы PDF генерируются из фактических JSON; отсутствие score не заменяется вымышленным числом.',small=True)

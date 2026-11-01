@@ -1,7 +1,7 @@
 """After the last chat turn, copy the PDF and original session into a two-file folder.
 
-GitHub publication is a separate outstanding step. This command never uploads
-anything and does not certify course readiness or remote repository contents.
+This command never uploads anything. GitHub status comes from the separately
+verified publication record; the final course upload is performed by the student.
 """
 import argparse
 import hashlib
@@ -30,25 +30,35 @@ def main():
     reader = PdfReader(pdf)
     assert len(reader.pages) == 6
     text = '\n'.join(page.extract_text() for page in reader.pages)
-    assert '0.44891' in text and 'github.com/dryjins/RecSys-LLMs' in text
+    publication_path=Path('runs/final_review/publication.json')
+    publication=json.loads(publication_path.read_text()) if publication_path.exists() else {}
+    repo_url=publication.get('repo_url','https://github.com/dryjins/RecSys-LLMs')
+    assert '0.44891' in text and repo_url.removeprefix('https://') in text
+    published=publication.get('verified') is True
+    if published:
+        assert publication['submission_sha256']==outcome['sha256']
     assert reader.pages[4].images, 'Actual score screenshot must be embedded'
     if args.check_only:
         print(json.dumps({'pdf_pages': 6, 'best_private': outcome['private_score'],
                           'exact_csv_sha256': outcome['sha256'], 'screenshot_embedded': True,
-                          'github_publication_verified': False, 'final_session_export_created': False}, indent=2))
+                          'github_publication_verified': published, 'final_session_export_created': False}, indent=2))
         return
     folder = Path('output/delivery')
-    expected = {'report.pdf', 'original_ai_session.jsonl'}
+    report_name='nikolai_evdokimov_midterm_report.pdf'
+    session_name='nikolai_evdokimov_midterm_session.jsonl'
+    expected = {report_name,session_name}
     folder.mkdir(parents=True, exist_ok=True)
     assert {p.name for p in folder.iterdir()} <= expected, 'Unexpected files: preserve and review them'
     native = Path('output/session/original_ai_session.jsonl')
     subprocess.run([sys.executable, 'scripts/export_ai_session.py', '--output', str(native)], check=True)
-    shutil.copy2(pdf, folder / 'report.pdf')
-    shutil.copy2(native, folder / 'original_ai_session.jsonl')
+    shutil.copy2(pdf, folder / report_name)
+    shutil.copy2(native, folder / session_name)
     assert {p.name for p in folder.iterdir()} == expected
-    assert (folder / 'original_ai_session.jsonl').read_bytes() == native.read_bytes()
-    print('Two local files prepared in output/delivery. GitHub publication is still unverified.')
+    assert (folder / session_name).read_bytes() == native.read_bytes()
+    print('Two local files prepared in output/delivery. GitHub publication verified:',published)
     print('If this chat continues, refresh the original session export after its last turn.')
+    if native.stat().st_size>10_000_000:
+        print('HW FAQ requires contacting the instructor before submission for session logs over10MB. This command does not obtain that agreement.')
 
 
 if __name__ == '__main__':

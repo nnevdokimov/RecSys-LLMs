@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "repo_url": "https://github.com/nnevdokimov/RecSys-LLMs",
+  "project_url": "https://github.com/nnevdokimov/RecSys-LLMs/tree/main/MidTerm",
+  "implementation_commit": "173aed2e442447c9f2cc89f86d0ed620b1a0836b",
+  "git_author": "nnevdokimov",
+  "authenticated_account": "nnevdokimov",
+  "verification_date_msk": "2026-11-01",
+  "submission_sha256": "344c50703e3a6e2e4851e04577305c70538c3ef3687cda55409d08ef6f86b13f",
+  "verification_method": "Local Git push; git ls-remote main matched implementation commit; raw CSV fetched at that commit and compared byte-for-byte and SHA-256",
+  "previous_attempt": "GitHub403 for original dryjins/RecSys-LLMs; then student authorized own fork, created through GitHub UI",
+  "remote_name": "fork",
+  "original_origin_preserved": true
+}
