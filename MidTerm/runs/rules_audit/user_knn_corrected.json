@@ -1,0 +1,26 @@
+[
+  {
+    "split": "early_10w",
+    "model": "user_knn_corrected_train_only_idf",
+    "map5": 0.3925002271281912,
+    "seconds": 0.5051047499982815,
+    "user_roster_before_cutoff_or_template": 4859,
+    "active_users_before_cutoff": 4615
+  },
+  {
+    "split": "original_10w",
+    "model": "user_knn_corrected_train_only_idf",
+    "map5": 0.35977338000359,
+    "seconds": 0.554269000000204,
+    "user_roster_before_cutoff_or_template": 4880,
+    "active_users_before_cutoff": 4737
+  },
+  {
+    "split": "late_6w",
+    "model": "user_knn_corrected_train_only_idf",
+    "map5": 0.3303194557087501,
+    "seconds": 0.5331467910000356,
+    "user_roster_before_cutoff_or_template": 4890,
+    "active_users_before_cutoff": 4768
+  }
+]

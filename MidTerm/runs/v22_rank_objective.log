@@ -1,0 +1,50 @@
+early_10w combined86_reference 0.446178
+early_10w rank86_trees100 0.446238
+early_10w rank86_top5 0.446731
+early_10w binary86 0.446717
+original_10w combined86_reference 0.423623
+original_10w rank86_trees100 0.424610
+original_10w rank86_top5 0.420780
+original_10w binary86 0.419920
+late_6w combined86_reference 0.390558
+late_6w rank86_trees100 0.389774
+late_6w rank86_top5 0.385190
+late_6w binary86 0.385334
+SUMMARY [
+  {
+    "method": "rank86_trees100",
+    "mean_map5": 0.42020715673434345,
+    "split_scores": {
+      "early_10w": 0.44623784864177335,
+      "original_10w": 0.42461003410518766,
+      "late_6w": 0.3897735874560692
+    }
+  },
+  {
+    "method": "combined86_reference",
+    "mean_map5": 0.42011941589098994,
+    "split_scores": {
+      "early_10w": 0.44617765967111833,
+      "original_10w": 0.42362255429904866,
+      "late_6w": 0.3905580337028026
+    }
+  },
+  {
+    "method": "rank86_top5",
+    "mean_map5": 0.417567080840833,
+    "split_scores": {
+      "early_10w": 0.4467311710729536,
+      "original_10w": 0.420780380542093,
+      "late_6w": 0.3851896909074525
+    }
+  },
+  {
+    "method": "binary86",
+    "mean_map5": 0.4173233189702717,
+    "split_scores": {
+      "early_10w": 0.44671663486871993,
+      "original_10w": 0.4199196733082031,
+      "late_6w": 0.38533364873389203
+    }
+  }
+]

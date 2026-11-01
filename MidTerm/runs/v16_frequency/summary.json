@@ -1,0 +1,29 @@
+[
+  {
+    "method": "frequency_classifier_reference",
+    "mean_map5": 0.4158239315478535,
+    "split_scores": {
+      "early_10w": 0.44312028709003365,
+      "original_10w": 0.41902934841141637,
+      "late_6w": 0.3853221591421105
+    }
+  },
+  {
+    "method": "frequency_fusion50",
+    "mean_map5": 0.41490629435328136,
+    "split_scores": {
+      "early_10w": 0.44336762969019716,
+      "original_10w": 0.4188920301561659,
+      "late_6w": 0.3824592232134811
+    }
+  },
+  {
+    "method": "frequency_poisson",
+    "mean_map5": 0.4111911128452092,
+    "split_scores": {
+      "early_10w": 0.43845711819751065,
+      "original_10w": 0.4155622868425776,
+      "late_6w": 0.37955393349553934
+    }
+  }
+]

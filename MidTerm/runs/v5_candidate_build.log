@@ -1,0 +1,114 @@
+FEATURES 2020-05-18 00:00:00 2020-07-27 00:00:00 68256 seconds 16.91
+FEATURES 2020-05-04 00:00:00 2020-06-29 00:00:00 169547 seconds 18.15
+FEATURES 2020-05-18 00:00:00 2020-07-13 00:00:00 170394 seconds 20.43
+FEATURES 2020-06-01 00:00:00 2020-07-27 00:00:00 171575 seconds 22.48
+FEATURES 2020-06-29 00:00:00 2020-07-27 00:00:00 170779 seconds 23.54
+FEATURES 2020-07-13 00:00:00 2020-07-27 00:00:00 171936 seconds 23.8
+FEATURES 2020-07-27 00:00:00 2020-10-19 00:00:00 172480 seconds 29.85
+{
+  "selected": {
+    "method": "combined86_reference",
+    "mean_map5": 0.42011941589098994,
+    "split_scores": {
+      "early_10w": 0.44617765967111833,
+      "original_10w": 0.42362255429904866,
+      "late_6w": 0.3905580337028026
+    },
+    "source_folder": "runs/v19_rank_final",
+    "parameters": {
+      "objective": "lambdarank",
+      "learning_rate": 0.07,
+      "min_child_samples": 100,
+      "reg_lambda": 10,
+      "random_state": 42,
+      "n_jobs": 4,
+      "deterministic": true,
+      "force_col_wise": true,
+      "verbosity": -1,
+      "label_gain": [
+        0,
+        1
+      ],
+      "lambdarank_truncation_level": 8,
+      "n_estimators": 150,
+      "num_leaves": 15
+    },
+    "feature_config": "configs/nested_category.json",
+    "feature_count": 86,
+    "vocabulary": {
+      "fitted_until_exclusive": "2020-03-23 00:00:00",
+      "categories": [
+        "Детям",
+        "Другое",
+        "Инфо",
+        "Познавательное",
+        "Развлечения",
+        "Сериалы",
+        "Фильмы"
+      ],
+      "genres": [
+        "комедия",
+        "драма",
+        "приключения",
+        "боевик",
+        "мелодрама",
+        "фантазия",
+        "триллер",
+        "криминал",
+        "детектив",
+        "фантастика",
+        "биографический",
+        "музыкальный",
+        "спортивный",
+        "ужастик",
+        "военный",
+        "исторический",
+        "мистика",
+        "развлекательные",
+        "общество и политика",
+        "юмор"
+      ]
+    },
+    "criterion": "Highest mean across predefined three historical rolling splits; broad search and overlapping windows disclosed",
+    "reserve_user_labels_used_for_choice": false,
+    "private_score_used_for_parameter_selection": false,
+    "private_score": null
+  },
+  "sha256": "344c50703e3a6e2e4851e04577305c70538c3ef3687cda55409d08ef6f86b13f",
+  "reserve": {
+    "cohort_users": 500,
+    "eligible_users": 477,
+    "empty_truth_users": 23,
+    "metrics": {
+      "selected_ranker": {
+        "map5": 0.3964890519450267,
+        "map5_all_users_empty_zero": 0.37825055555555553,
+        "map5_gt5": 0.41624697336561745,
+        "map5_cold": null,
+        "map5_warm": 0.3964890519450267
+      },
+      "v4_classifier": {
+        "map5": 0.39670160726764503,
+        "map5_all_users_empty_zero": 0.3784533333333333,
+        "map5_gt5": 0.41491525423728814,
+        "map5_cold": null,
+        "map5_warm": 0.39670160726764503
+      },
+      "popularity": {
+        "map5": 0.2614511996273003,
+        "map5_all_users_empty_zero": 0.24942444444444445,
+        "map5_gt5": 0.2664810330912026,
+        "map5_cold": null,
+        "map5_warm": 0.2614511996273003
+      }
+    },
+    "mean_delta_vs_v4": -0.00021255532261821693,
+    "paired_user_bootstrap_95_interval": [
+      -0.005672053342650828,
+      0.005382206498951775
+    ],
+    "parameters_frozen_before_reserve_labels": true,
+    "labels_used_for_fit_or_retuning": false,
+    "caveat": "Auxiliary new-user cohort, shared calendar/items, not a fresh time period; selection audience differs from Kaggle template."
+  }
+}

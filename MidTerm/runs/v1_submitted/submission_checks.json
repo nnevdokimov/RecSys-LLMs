@@ -1,0 +1,20 @@
+{
+  "path": "artifacts/final_submission.csv",
+  "rows": 1260,
+  "columns": [
+    "user_id",
+    "tv_show_id"
+  ],
+  "five_unique_positive_candidate_ids": true,
+  "template_user_order_preserved": true,
+  "sha256": "f6f31a19e73b0b6f93db5cc63f116a6136cb515763552c97948462c979086ea5",
+  "method": "hybrid60_20_20_static_repeat",
+  "candidate_count": 6649,
+  "fit_and_predict_seconds": 1.2106337080003868,
+  "training_air_views": 611758,
+  "training_user_item_pairs": 228573,
+  "cold_target_users": 4,
+  "candidate_items_without_training_metadata": 1436,
+  "total_experiment_seconds": 8.152651125001285,
+  "peak_rss_bytes": 2323103744
+}

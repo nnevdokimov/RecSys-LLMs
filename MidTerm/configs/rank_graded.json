@@ -1,0 +1,7 @@
+{
+ "features":"Frozen v5 86 columns and candidates",
+ "variants":["binary_reference","top5_rank_gain","top5_count_cap5"],
+ "parameters":"v5 LambdaRank150 leaf15 unchanged, label_gain linear0..5 for graded variants",
+ "selection":"Historical three-split MAP@5; outer labels not in fit; reserve cohort not used",
+ "rationale":"Test whether frequency confidence within the inner-window Top-5 improves training beyond equal membership. Evaluation keeps all five ground-truth programmes equally relevant. No test views."
+}

@@ -1,0 +1,40 @@
+FEATURES 2020-03-23 00:00:00 2020-04-20 00:00:00 168928 seconds 7.16
+FEATURES 2020-04-06 00:00:00 2020-04-20 00:00:00 167044 seconds 9.63
+FEATURES 2020-04-20 00:00:00 2020-06-29 00:00:00 171273 seconds 16.31
+early_10w partial_candidates_control45 0.444218 coverage 0.906
+early_10w partial_full55 0.441851 coverage 0.906
+FEATURES 2020-03-23 00:00:00 2020-05-18 00:00:00 170159 seconds 8.55
+FEATURES 2020-04-06 00:00:00 2020-05-18 00:00:00 168663 seconds 11.61
+FEATURES 2020-04-20 00:00:00 2020-05-18 00:00:00 171411 seconds 14.33
+FEATURES 2020-05-04 00:00:00 2020-05-18 00:00:00 173759 seconds 16.59
+FEATURES 2020-05-18 00:00:00 2020-07-27 00:00:00 171623 seconds 22.67
+original_10w partial_candidates_control45 0.418434 coverage 0.8886
+original_10w partial_full55 0.418744 coverage 0.8886
+FEATURES 2020-04-06 00:00:00 2020-06-01 00:00:00 168850 seconds 12.26
+FEATURES 2020-04-20 00:00:00 2020-06-15 00:00:00 170962 seconds 15.76
+FEATURES 2020-05-04 00:00:00 2020-06-15 00:00:00 171869 seconds 18.45
+FEATURES 2020-05-18 00:00:00 2020-06-15 00:00:00 172536 seconds 20.06
+FEATURES 2020-06-01 00:00:00 2020-06-15 00:00:00 175264 seconds 20.7
+FEATURES 2020-06-15 00:00:00 2020-07-27 00:00:00 172369 seconds 24.74
+late_6w partial_candidates_control45 0.384774 coverage 0.867
+late_6w partial_full55 0.383908 coverage 0.867
+SUMMARY [
+  {
+    "method": "partial_candidates_control45",
+    "mean_map5": 0.41580855383065646,
+    "split_scores": {
+      "early_10w": 0.44421754338148445,
+      "original_10w": 0.41843362950996227,
+      "late_6w": 0.38477448860052266
+    }
+  },
+  {
+    "method": "partial_full55",
+    "mean_map5": 0.4148342840913101,
+    "split_scores": {
+      "early_10w": 0.4418513218860725,
+      "original_10w": 0.41874371746544614,
+      "late_6w": 0.3839078129224115
+    }
+  }
+]

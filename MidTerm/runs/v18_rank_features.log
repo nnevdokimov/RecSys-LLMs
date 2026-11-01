@@ -1,0 +1,38 @@
+early_10w rank_control45 0.442125
+early_10w rank_habit56 0.443457
+early_10w rank_combined86 0.446178
+original_10w rank_control45 0.421683
+original_10w rank_habit56 0.420182
+original_10w rank_combined86 0.423623
+late_6w rank_control45 0.385666
+late_6w rank_habit56 0.387322
+late_6w rank_combined86 0.390558
+SUMMARY [
+  {
+    "method": "rank_combined86",
+    "mean_map5": 0.42011941589098994,
+    "split_scores": {
+      "early_10w": 0.44617765967111833,
+      "original_10w": 0.42362255429904866,
+      "late_6w": 0.3905580337028026
+    }
+  },
+  {
+    "method": "rank_habit56",
+    "mean_map5": 0.41698696016791864,
+    "split_scores": {
+      "early_10w": 0.44345666394112837,
+      "original_10w": 0.4201824178782984,
+      "late_6w": 0.3873217986843291
+    }
+  },
+  {
+    "method": "rank_control45",
+    "mean_map5": 0.4164912583929592,
+    "split_scores": {
+      "early_10w": 0.4421245571000273,
+      "original_10w": 0.42168282175551963,
+      "late_6w": 0.3856663963233306
+    }
+  }
+]

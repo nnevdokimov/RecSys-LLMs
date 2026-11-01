@@ -1,0 +1,34 @@
+{
+  "all_1260_lists_identical": true,
+  "fit_audit": {
+    "outer_cutoff": "2020-05-18 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 154684
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 157199
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 159989
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 156804
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "training_rows": 628676,
+    "query_count": 4696,
+    "group_sum_equals_rows": true,
+    "label_rule": "Top5 membership gains 5..1 by inner future frequency rank; evaluation binary MAP@5 unchanged",
+    "rank_fit_seconds": 4.89503470800264
+  }
+}

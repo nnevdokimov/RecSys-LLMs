@@ -1,0 +1,15 @@
+{
+  "base": "rank86_trees100",
+  "partners": [
+    "combined86_reference"
+  ],
+  "partner_weights": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "rank_offset": 1,
+  "input": "Frozen top-5 historical lists; union candidates stays within common legal pool; shared popularity tie-break",
+  "criterion": "Same mean of three historical MAP@5; no private-score fitting; no reserve cohort retuning",
+  "rationale": "Adjacent checkpoints of the same learning sequence; reduce ordering variance with no new features or holdout labels in fitting"
+}

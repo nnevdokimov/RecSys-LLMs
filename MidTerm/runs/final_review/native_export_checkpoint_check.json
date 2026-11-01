@@ -1,0 +1,10 @@
+{
+  "source": "/Users/nnevdokimov/.codex/sessions/2026/10/29/rollout-2026-10-29T21-33-22-01a188f0-266f-7ca3-8514-d0f566a02a85.jsonl",
+  "output": "tmp/session_checkpoint.jsonl",
+  "bytes": 36774251,
+  "records": 3316,
+  "sha256": "37254a15dc35979666b9e1df627ac5f2fc67f73d59be99d8a47a375830a291bc",
+  "byte_identical_at_copy": true,
+  "transformed": false,
+  "caveat": "The source grows if this chat continues; rerun after the last turn. JSONL was not renamed to JSON."
+}

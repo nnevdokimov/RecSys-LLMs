@@ -1,0 +1,16 @@
+{
+  "designated_version": "v5",
+  "submission_file": "runs/v5_candidate/submission_v5.csv",
+  "sha256": "344c50703e3a6e2e4851e04577305c70538c3ef3687cda55409d08ef6f86b13f",
+  "private_score": 0.44891,
+  "public_score": 0.45937,
+  "report": "output/pdf/nikolai_evdokimov_midterm_report_FINAL.pdf",
+  "report_sha256": "32d47ef403123c317530aa5d4a56dbc055e03a76acc7e56bbd56c5f7447d0d0b",
+  "actual_submissions": 6,
+  "search_rows_including_references": 188,
+  "private_target": 0.45,
+  "private_target_achieved": false,
+  "private_gap": 0.00109,
+  "github_publication_verified": false,
+  "final_session_export_pending_last_turn": true
+}

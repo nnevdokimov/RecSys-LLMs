@@ -1,0 +1,137 @@
+[
+  {
+    "split": "early_10w",
+    "method": "lambdarank_classifier_reference",
+    "map5": 0.44312028709003365,
+    "map5_all_users_empty_zero": 0.43010802469135806,
+    "map5_gt5": 0.4570144414972001,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4468840180130502
+  },
+  {
+    "split": "early_10w",
+    "method": "lambdarank150_leaf15",
+    "map5": 0.4421245571000273,
+    "map5_all_users_empty_zero": 0.42914153439153435,
+    "map5_gt5": 0.4559033303860891,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44587675765095125
+  },
+  {
+    "split": "early_10w",
+    "method": "lambdarank150_leaf15__fusion50",
+    "map5": 0.4418161170164441,
+    "map5_all_users_empty_zero": 0.428842151675485,
+    "map5_gt5": 0.45602416740347773,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44556474588732653
+  },
+  {
+    "split": "early_10w",
+    "method": "lambdarank150_leaf31",
+    "map5": 0.4383060779503953,
+    "map5_all_users_empty_zero": 0.42543518518518514,
+    "map5_gt5": 0.451508989095196,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44201406120760955
+  },
+  {
+    "split": "early_10w",
+    "method": "lambdarank150_leaf31__fusion50",
+    "map5": 0.44227582447533387,
+    "map5_all_users_empty_zero": 0.4292883597883598,
+    "map5_gt5": 0.45617742410845863,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.446029776674938
+  },
+  {
+    "split": "original_10w",
+    "method": "lambdarank_classifier_reference",
+    "map5": 0.41902934841141637,
+    "map5_all_users_empty_zero": 0.41171296296296295,
+    "map5_gt5": 0.4352898550724638,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.42199754901960773
+  },
+  {
+    "split": "original_10w",
+    "method": "lambdarank150_leaf15",
+    "map5": 0.42168282175551963,
+    "map5_all_users_empty_zero": 0.4143201058201058,
+    "map5_gt5": 0.4385159420289855,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.42468137254901955
+  },
+  {
+    "split": "original_10w",
+    "method": "lambdarank150_leaf15__fusion50",
+    "map5": 0.4196324717285945,
+    "map5_all_users_empty_zero": 0.41230555555555554,
+    "map5_gt5": 0.4360115942028986,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4226075708061002
+  },
+  {
+    "split": "original_10w",
+    "method": "lambdarank150_leaf31",
+    "map5": 0.42031726799497404,
+    "map5_all_users_empty_zero": 0.41297839506172845,
+    "map5_gt5": 0.43665217391304345,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4233001997095134
+  },
+  {
+    "split": "original_10w",
+    "method": "lambdarank150_leaf31__fusion50",
+    "map5": 0.4191796804882427,
+    "map5_all_users_empty_zero": 0.4118606701940035,
+    "map5_gt5": 0.4353768115942029,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4221496005809731
+  },
+  {
+    "split": "late_6w",
+    "method": "lambdarank_classifier_reference",
+    "map5": 0.3853221591421105,
+    "map5_all_users_empty_zero": 0.37706525573192234,
+    "map5_gt5": 0.405889996977939,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38729041643935264
+  },
+  {
+    "split": "late_6w",
+    "method": "lambdarank150_leaf15",
+    "map5": 0.3856663963233306,
+    "map5_all_users_empty_zero": 0.3774021164021164,
+    "map5_gt5": 0.4061891810214566,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38763775231860337
+  },
+  {
+    "split": "late_6w",
+    "method": "lambdarank150_leaf15__fusion50",
+    "map5": 0.38557605659187166,
+    "map5_all_users_empty_zero": 0.3773137125220458,
+    "map5_gt5": 0.40661831368993656,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3875465993817058
+  },
+  {
+    "split": "late_6w",
+    "method": "lambdarank150_leaf31",
+    "map5": 0.3821879787329909,
+    "map5_all_users_empty_zero": 0.37399823633156964,
+    "map5_gt5": 0.40265336959806586,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38412802327695944
+  },
+  {
+    "split": "late_6w",
+    "method": "lambdarank150_leaf31__fusion50",
+    "map5": 0.3840274398486077,
+    "map5_all_users_empty_zero": 0.3757982804232804,
+    "map5_gt5": 0.4048292535509217,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3859840425531915
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "split": "early_10w",
+    "method": "template_only_reference",
+    "map5": 0.44312028709003365,
+    "map5_all_users_empty_zero": 0.43010802469135806,
+    "map5_gt5": 0.4570144414972001,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4468840180130502
+  },
+  {
+    "split": "early_10w",
+    "method": "augmented_population",
+    "map5": 0.442385754519851,
+    "map5_all_users_empty_zero": 0.4293950617283951,
+    "map5_gt5": 0.4564190981432361,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44614097968936683
+  },
+  {
+    "split": "early_10w",
+    "method": "population_fusion50",
+    "map5": 0.44380689561188336,
+    "map5_all_users_empty_zero": 0.4307744708994709,
+    "map5_gt5": 0.45737989979369287,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4475785773366418
+  },
+  {
+    "split": "original_10w",
+    "method": "template_only_reference",
+    "map5": 0.41902934841141637,
+    "map5_all_users_empty_zero": 0.41171296296296295,
+    "map5_gt5": 0.4352898550724638,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.42199754901960773
+  },
+  {
+    "split": "original_10w",
+    "method": "augmented_population",
+    "map5": 0.41827679052234784,
+    "map5_all_users_empty_zero": 0.41097354497354494,
+    "map5_gt5": 0.4353565217391305,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4212363834422658
+  },
+  {
+    "split": "original_10w",
+    "method": "population_fusion50",
+    "map5": 0.4188868695027822,
+    "map5_all_users_empty_zero": 0.4115729717813051,
+    "map5_gt5": 0.43560869565217397,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4218534404502542
+  },
+  {
+    "split": "late_6w",
+    "method": "template_only_reference",
+    "map5": 0.3853221591421105,
+    "map5_all_users_empty_zero": 0.37706525573192234,
+    "map5_gt5": 0.405889996977939,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38729041643935264
+  },
+  {
+    "split": "late_6w",
+    "method": "augmented_population",
+    "map5": 0.3872830494728305,
+    "map5_all_users_empty_zero": 0.37898412698412703,
+    "map5_gt5": 0.40808703535811425,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3892689579923623
+  },
+  {
+    "split": "late_6w",
+    "method": "population_fusion50",
+    "map5": 0.3846823465801568,
+    "map5_all_users_empty_zero": 0.37643915343915346,
+    "map5_gt5": 0.40573889392565726,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38664484451718495
+  }
+]

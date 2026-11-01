@@ -1,0 +1,59 @@
+FEATURES 2020-05-04 00:00:00 2020-06-29 00:00:00 169547 seconds 17.5
+FEATURES 2020-05-18 00:00:00 2020-07-13 00:00:00 170394 seconds 19.55
+FEATURES 2020-06-01 00:00:00 2020-07-27 00:00:00 171575 seconds 21.36
+FEATURES 2020-06-29 00:00:00 2020-07-27 00:00:00 170779 seconds 22.49
+FEATURES 2020-07-13 00:00:00 2020-07-27 00:00:00 171936 seconds 23.06
+FEATURES 2020-07-27 00:00:00 2020-10-19 00:00:00 172480 seconds 28.57
+{
+  "selection": {
+    "method": "nested_hgb_weight1.0",
+    "mean_map5": 0.41520442295530585,
+    "split_scores": {
+      "early_10w": 0.442737348959753,
+      "original_10w": 0.41818704002872015,
+      "late_6w": 0.3846888798774444
+    },
+    "folder": "runs/v9_nested_wide",
+    "config": "configs/nested_wide.json",
+    "classifier_score_weight": 1.0,
+    "criterion": "Highest mean across three historical rolling splits; same overlap and selection-bias caveats",
+    "private_score_used_for_parameter_selection": false,
+    "private_score": null,
+    "parameters": {
+      "seed": 42,
+      "inner_min_train_days": 14,
+      "inner_step_days": 14,
+      "inner_max_forecast_days": 56,
+      "inner_min_forecast_days": 14,
+      "candidate_top_k": {
+        "v2": 40,
+        "raw_time": 100,
+        "repeat": 40,
+        "item_cosine": 50,
+        "content": 30,
+        "association": 30,
+        "popularity": 20
+      },
+      "estimator": {
+        "learning_rate": 0.07,
+        "max_iter": 100,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 100,
+        "l2_regularization": 10,
+        "early_stopping": false
+      },
+      "blends": [
+        1.0,
+        0.5
+      ],
+      "label": "Membership in next-window top-5 qualified programme IDs; never outer validation labels",
+      "features": "Same 39 numeric features as narrow nested reranker, including soft time and recent interest",
+      "candidate_pool": "Same legal pool; wider candidate generation with unchanged scoring features and classifier settings",
+      "rationale": "The narrow generator covered only 80.7% of original-split ground-truth IDs. Test a larger candidate set before considering any new Kaggle submission.",
+      "selection": "Mean of the same three historical rolling MAP@5 values; report coverage, all split scores and tradeoffs",
+      "reference": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html"
+    }
+  },
+  "submission_sha256": "63f3b6d5f68c9880d36f94a63b8db5a5c60635c04dd8677454db7dd1ab077a7d",
+  "path": "runs/v3_candidate/submission_v3.csv"
+}

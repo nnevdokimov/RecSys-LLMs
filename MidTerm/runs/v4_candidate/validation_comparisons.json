@@ -1,0 +1,38 @@
+{
+  "caveat": "After selection on overlapping historical validation; descriptive only, no independent significance claim.",
+  "splits": {
+    "early_10w": {
+      "users": 1223,
+      "mean_delta_vs_v2": 0.004823067139093303,
+      "improved": 316,
+      "worsened": 266,
+      "unchanged": 641,
+      "descriptive_paired_95_interval": [
+        -0.00027199168710820585,
+        0.009829273416916506
+      ]
+    },
+    "original_10w": {
+      "users": 1238,
+      "mean_delta_vs_v2": 0.00980142703284868,
+      "improved": 346,
+      "worsened": 241,
+      "unchanged": 651,
+      "descriptive_paired_95_interval": [
+        0.00530353616944893,
+        0.01438858037156704
+      ]
+    },
+    "late_6w": {
+      "users": 1233,
+      "mean_delta_vs_v2": 0.014173199963954221,
+      "improved": 375,
+      "worsened": 251,
+      "unchanged": 607,
+      "descriptive_paired_95_interval": [
+        0.009222070154095704,
+        0.019361392718752812
+      ]
+    }
+  }
+}

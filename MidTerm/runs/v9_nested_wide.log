@@ -1,0 +1,40 @@
+FEATURES 2020-03-23 00:00:00 2020-04-20 00:00:00 164489 seconds 6.22
+FEATURES 2020-04-06 00:00:00 2020-04-20 00:00:00 164086 seconds 8.8
+FEATURES 2020-04-20 00:00:00 2020-06-29 00:00:00 168260 seconds 14.73
+early_10w nested_hgb_weight1.0 0.442737
+early_10w nested_hgb_weight0.5 0.444265
+FEATURES 2020-03-23 00:00:00 2020-05-18 00:00:00 165166 seconds 7.42
+FEATURES 2020-04-06 00:00:00 2020-05-18 00:00:00 165018 seconds 10.33
+FEATURES 2020-04-20 00:00:00 2020-05-18 00:00:00 168555 seconds 13.06
+FEATURES 2020-05-04 00:00:00 2020-05-18 00:00:00 171513 seconds 15.35
+FEATURES 2020-05-18 00:00:00 2020-07-27 00:00:00 169841 seconds 20.05
+original_10w nested_hgb_weight1.0 0.418187
+original_10w nested_hgb_weight0.5 0.416894
+FEATURES 2020-04-06 00:00:00 2020-06-01 00:00:00 165095 seconds 10.85
+FEATURES 2020-04-20 00:00:00 2020-06-15 00:00:00 167959 seconds 14.13
+FEATURES 2020-05-04 00:00:00 2020-06-15 00:00:00 169428 seconds 16.57
+FEATURES 2020-05-18 00:00:00 2020-06-15 00:00:00 170711 seconds 18.17
+FEATURES 2020-06-01 00:00:00 2020-06-15 00:00:00 173567 seconds 18.67
+FEATURES 2020-06-15 00:00:00 2020-07-27 00:00:00 170807 seconds 22.01
+late_6w nested_hgb_weight1.0 0.384689
+late_6w nested_hgb_weight0.5 0.381004
+SUMMARY [
+  {
+    "method": "nested_hgb_weight1.0",
+    "mean_map5": 0.41520442295530585,
+    "split_scores": {
+      "early_10w": 0.442737348959753,
+      "original_10w": 0.41818704002872015,
+      "late_6w": 0.3846888798774444
+    }
+  },
+  {
+    "method": "nested_hgb_weight0.5",
+    "mean_map5": 0.41405443251623714,
+    "split_scores": {
+      "early_10w": 0.4442650131734351,
+      "original_10w": 0.41689418416801294,
+      "late_6w": 0.3810041002072632
+    }
+  }
+]

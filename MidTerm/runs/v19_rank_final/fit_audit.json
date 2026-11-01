@@ -1,0 +1,83 @@
+{
+  "early_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "combined86_reference": 2.512818667000829,
+      "combined86_leaf31": 2.8761602500017034,
+      "combined86_xendcg": 2.238424583003507
+    },
+    "group_sum_equals_rows": true
+  },
+  "original_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "combined86_reference": 4.928209333000268,
+      "combined86_leaf31": 5.496120042000257,
+      "combined86_xendcg": 4.094320707998122
+    },
+    "group_sum_equals_rows": true
+  },
+  "late_6w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "combined86_reference": 6.950587750001432,
+      "combined86_leaf31": 7.831119457998284,
+      "combined86_xendcg": 5.664548500000819
+    },
+    "group_sum_equals_rows": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "reference": "context21_mean_lift1__adaptive_cos",
+  "windows_days": [56,84],
+  "full_recent_mix_weights": [0.5,1.0],
+  "fixed_context_shrink_days": 21,
+  "fixed_program_lift_pseudocount": 1,
+  "fixed_cosine_weight": "0.05 for dominant-category share>=0.8 and >=50 events, otherwise 0.2",
+  "selection": "mean of the same three rolling MAP@5 scores; require improvement on each split or document the tradeoff",
+  "private_scores_not_used_for_weight_selection": true
+}

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nnevdokimov/RecSys-LLMs/MidTerm/src/sweettv/nested_rerank.py", line 158, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/Users/nnevdokimov/RecSys-LLMs/MidTerm/src/sweettv/nested_rerank.py", line 128, in run
+    data=build_features(con,start,anchor,inner_end,targets,cfg)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nnevdokimov/RecSys-LLMs/MidTerm/src/sweettv/nested_rerank.py", line 70, in build_features
+    add('log_'+name,np.log1p(array));add('relative_'+name,row_max_norm(array))
+                                                          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/nnevdokimov/RecSys-LLMs/MidTerm/src/sweettv/models.py", line 124, in row_max_norm
+    return np.divide(x,den,out=np.zeros_like(x),where=den>0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._UFuncOutputCastingError: Cannot cast ufunc 'divide' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'

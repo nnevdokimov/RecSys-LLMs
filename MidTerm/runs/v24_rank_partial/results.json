@@ -1,0 +1,83 @@
+[
+  {
+    "split": "early_10w",
+    "method": "expanded_candidates_control86",
+    "map5": 0.4454563005360226,
+    "map5_all_users_empty_zero": 0.43237544091710756,
+    "map5_gt5": 0.45918066607721775,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4492470820696627
+  },
+  {
+    "split": "early_10w",
+    "method": "expanded_partial96",
+    "map5": 0.4498187517034614,
+    "map5_all_users_empty_zero": 0.43660978835978836,
+    "map5_gt5": 0.4641055113468907,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4536600496277915
+  },
+  {
+    "split": "early_10w",
+    "method": "v5_reference86",
+    "map5": 0.44617765967111833,
+    "map5_all_users_empty_zero": 0.4330756172839506,
+    "map5_gt5": 0.46002947244326553,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4499767944122783
+  },
+  {
+    "split": "original_10w",
+    "method": "expanded_candidates_control86",
+    "map5": 0.42332278765033216,
+    "map5_all_users_empty_zero": 0.4159314373897708,
+    "map5_gt5": 0.4395797101449275,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4263400962236747
+  },
+  {
+    "split": "original_10w",
+    "method": "expanded_partial96",
+    "map5": 0.42269094417519293,
+    "map5_all_users_empty_zero": 0.41531062610229275,
+    "map5_gt5": 0.4392086956521739,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4257010257806827
+  },
+  {
+    "split": "original_10w",
+    "method": "v5_reference86",
+    "map5": 0.42362255429904866,
+    "map5_all_users_empty_zero": 0.4162259700176367,
+    "map5_gt5": 0.44002318840579707,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.42664329157588965
+  },
+  {
+    "split": "late_6w",
+    "method": "expanded_candidates_control86",
+    "map5": 0.3871992430386591,
+    "map5_all_users_empty_zero": 0.37890211640211646,
+    "map5_gt5": 0.4074493804774857,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3891843971631206
+  },
+  {
+    "split": "late_6w",
+    "method": "expanded_partial96",
+    "map5": 0.3878620347841759,
+    "map5_all_users_empty_zero": 0.37955070546737213,
+    "map5_gt5": 0.4089181021456633,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38985315511911256
+  },
+  {
+    "split": "late_6w",
+    "method": "v5_reference86",
+    "map5": 0.3905580337028026,
+    "map5_all_users_empty_zero": 0.3821889329805997,
+    "map5_gt5": 0.41088546388637054,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.39257342244044374
+  }
+]

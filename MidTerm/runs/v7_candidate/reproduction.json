@@ -1,0 +1,12 @@
+{
+  "two_full_fits_identical_sha256": "dfd529c818fef68b0cf94b24a66b223595dcb8713d1a56c024f41d3b6cc152ae",
+  "all_validation_lists_identical": true,
+  "previous_submissions_unchanged": {
+    "artifacts/final_submission.csv": "f6f31a19e73b0b6f93db5cc63f116a6136cb515763552c97948462c979086ea5",
+    "runs/v2_candidate/submission_v2.csv": "21004456ef3ae2706ddab0d6604e4888b8dfaf6251dd62af500d9d6f4557e743",
+    "runs/v3_candidate/submission_v3.csv": "63f3b6d5f68c9880d36f94a63b8db5a5c60635c04dd8677454db7dd1ab077a7d",
+    "runs/v4_candidate/submission_v4.csv": "8a896a760312cda2e46db20e22e9618253ce0c08dad1b917e93ea9e8e47a6b4f",
+    "runs/v5_candidate/submission_v5.csv": "344c50703e3a6e2e4851e04577305c70538c3ef3687cda55409d08ef6f86b13f",
+    "runs/v6_candidate/submission_v6.csv": "d8a4b1243933599ffc6e00605607cc6bac36c4a32097d69bee10c617143b470a"
+  }
+}

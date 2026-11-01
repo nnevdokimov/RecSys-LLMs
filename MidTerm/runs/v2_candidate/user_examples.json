@@ -1,0 +1,762 @@
+[
+  {
+    "user_id": "10500740270951698446",
+    "history_air_views": 904,
+    "history_unique_items": 97,
+    "history_top10": [
+      {
+        "id": 12001682,
+        "title": "М/с 'Губка Боб Квадратные Штаны'.",
+        "category": "Детям",
+        "air_views": 401
+      },
+      {
+        "id": 12002856,
+        "title": "М/с 'Элвиннн!!! и бурундуки'.",
+        "category": "Детям",
+        "air_views": 68
+      },
+      {
+        "id": 2400480,
+        "title": "ТСН.",
+        "category": "Инфо",
+        "air_views": 62
+      },
+      {
+        "id": 12001697,
+        "title": "М/с 'Аватар: Легенда об Аанге'.",
+        "category": "Детям",
+        "air_views": 54
+      },
+      {
+        "id": 12001734,
+        "title": "М/с 'Волшебные покровители'.",
+        "category": "Детям",
+        "air_views": 54
+      },
+      {
+        "id": 240081,
+        "title": "Факты.",
+        "category": "Инфо",
+        "air_views": 32
+      },
+      {
+        "id": 12002771,
+        "title": "М/с 'Черепашки-ниндзя'.",
+        "category": "Детям",
+        "air_views": 22
+      },
+      {
+        "id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "air_views": 18
+      },
+      {
+        "id": 12002355,
+        "title": "М/с 'Кунг-фу панда: Удивительные легенды'.",
+        "category": "Детям",
+        "air_views": 16
+      },
+      {
+        "id": 2400508,
+        "title": "Сегодня.",
+        "category": "Инфо",
+        "air_views": 12
+      }
+    ],
+    "truth": [
+      {
+        "id": 12001682,
+        "title": "М/с 'Губка Боб Квадратные Штаны'.",
+        "category": "Детям",
+        "hit": true,
+        "air_views": 198
+      },
+      {
+        "id": 12002856,
+        "title": "М/с 'Элвиннн!!! и бурундуки'.",
+        "category": "Детям",
+        "hit": true,
+        "air_views": 55
+      },
+      {
+        "id": 12001697,
+        "title": "М/с 'Аватар: Легенда об Аанге'.",
+        "category": "Детям",
+        "hit": true,
+        "air_views": 43
+      },
+      {
+        "id": 2400480,
+        "title": "ТСН.",
+        "category": "Инфо",
+        "hit": true,
+        "air_views": 36
+      },
+      {
+        "id": 12002355,
+        "title": "М/с 'Кунг-фу панда: Удивительные легенды'.",
+        "category": "Детям",
+        "hit": true,
+        "air_views": 36
+      }
+    ],
+    "dominant_category_share": 0.6957964601769911,
+    "cosine_weight": 0.2,
+    "recommendations": {
+      "popularity": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "hit": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        }
+      ],
+      "repeat": [
+        {
+          "id": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 12001734,
+          "title": "М/с 'Волшебные покровители'.",
+          "category": "Детям",
+          "hit": false
+        },
+        {
+          "id": 12001697,
+          "title": "М/с 'Аватар: Легенда об Аанге'.",
+          "category": "Детям",
+          "hit": true
+        }
+      ],
+      "cbf28": [
+        {
+          "id": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 12001697,
+          "title": "М/с 'Аватар: Легенда об Аанге'.",
+          "category": "Детям",
+          "hit": true
+        }
+      ],
+      "ar20_28": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "hit": false
+        }
+      ],
+      "als48": [
+        {
+          "id": 10002893,
+          "title": "Т/с 'Когда мы дома'.",
+          "category": "Сериалы",
+          "hit": false
+        },
+        {
+          "id": 200338,
+          "title": "Готовим вместе.",
+          "category": "Познавательное",
+          "hit": false
+        },
+        {
+          "id": 300358,
+          "title": "Скетч-шоу 'На троих', 4 сезон.",
+          "category": "Развлечения",
+          "hit": false
+        },
+        {
+          "id": 120079499,
+          "title": "М/ф 'Гадкий я 2'.",
+          "category": "Детям",
+          "hit": false
+        },
+        {
+          "id": 90044806,
+          "title": "Х/ф 'Пятый элемент'.",
+          "category": "Фильмы",
+          "hit": false
+        }
+      ],
+      "item_cosine": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "hit": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        }
+      ],
+      "time_context": [
+        {
+          "id": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 12001734,
+          "title": "М/с 'Волшебные покровители'.",
+          "category": "Детям",
+          "hit": false
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 12002355,
+          "title": "М/с 'Кунг-фу панда: Удивительные легенды'.",
+          "category": "Детям",
+          "hit": true
+        }
+      ],
+      "program_lift": [
+        {
+          "id": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 12001697,
+          "title": "М/с 'Аватар: Легенда об Аанге'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 12001734,
+          "title": "М/с 'Волшебные покровители'.",
+          "category": "Детям",
+          "hit": false
+        }
+      ],
+      "advanced_hybrid": [
+        {
+          "id": 12001682,
+          "title": "М/с 'Губка Боб Квадратные Штаны'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 12002856,
+          "title": "М/с 'Элвиннн!!! и бурундуки'.",
+          "category": "Детям",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 12001734,
+          "title": "М/с 'Волшебные покровители'.",
+          "category": "Детям",
+          "hit": false
+        }
+      ]
+    },
+    "ap5": {
+      "popularity": 0.2,
+      "repeat": 0.76,
+      "cbf28": 0.76,
+      "ar20_28": 0.2,
+      "als48": 0.0,
+      "item_cosine": 0.2,
+      "time_context": 0.71,
+      "program_lift": 0.8,
+      "advanced_hybrid": 0.6
+    }
+  },
+  {
+    "user_id": "12453026253397466416",
+    "history_air_views": 1,
+    "history_unique_items": 1,
+    "history_top10": [
+      {
+        "id": 200337,
+        "title": "Утро с Интером.",
+        "category": "Развлечения",
+        "air_views": 1
+      }
+    ],
+    "truth": [
+      {
+        "id": 240081,
+        "title": "Факты.",
+        "category": "Инфо",
+        "hit": true,
+        "air_views": 9
+      },
+      {
+        "id": 2400480,
+        "title": "ТСН.",
+        "category": "Инфо",
+        "hit": true,
+        "air_views": 3
+      },
+      {
+        "id": 5200303,
+        "title": "'Следствие вели...' с Леонидом Каневским.",
+        "category": "Познавательное",
+        "hit": true,
+        "air_views": 3
+      },
+      {
+        "id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "hit": true,
+        "air_views": 2
+      },
+      {
+        "id": 200337,
+        "title": "Утро с Интером.",
+        "category": "Развлечения",
+        "hit": true,
+        "air_views": 1
+      }
+    ],
+    "dominant_category_share": 1.0,
+    "cosine_weight": 0.2,
+    "recommendations": {
+      "popularity": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "hit": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        }
+      ],
+      "repeat": [
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 200344,
+          "title": "'Чистоnews'.",
+          "category": "Развлечения",
+          "hit": false
+        }
+      ],
+      "cbf28": [
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 5900275,
+          "title": "'Утро России'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 5900256,
+          "title": "Утро с Украиной.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 200477,
+          "title": "'Завтрак. Выходной'.",
+          "category": "Развлечения",
+          "hit": false
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        }
+      ],
+      "ar20_28": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "hit": true
+        }
+      ],
+      "als48": [
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 5900256,
+          "title": "Утро с Украиной.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 6200371,
+          "title": "ДжеДАИ.",
+          "category": "Познавательное",
+          "hit": false
+        },
+        {
+          "id": 200506,
+          "title": "Звездный путь.",
+          "category": "Развлечения",
+          "hit": false
+        },
+        {
+          "id": 5200303,
+          "title": "'Следствие вели...' с Леонидом Каневским.",
+          "category": "Познавательное",
+          "hit": true
+        }
+      ],
+      "item_cosine": [
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 240081,
+          "title": "Факты.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "hit": false
+        }
+      ],
+      "time_context": [
+        {
+          "id": 5200303,
+          "title": "'Следствие вели...' с Леонидом Каневским.",
+          "category": "Познавательное",
+          "hit": true
+        },
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 6700482,
+          "title": "Секретные материалы.",
+          "category": "Другое",
+          "hit": false
+        }
+      ],
+      "program_lift": [
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 5200303,
+          "title": "'Следствие вели...' с Леонидом Каневским.",
+          "category": "Познавательное",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 6700482,
+          "title": "Секретные материалы.",
+          "category": "Другое",
+          "hit": false
+        }
+      ],
+      "advanced_hybrid": [
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "hit": true
+        },
+        {
+          "id": 5200303,
+          "title": "'Следствие вели...' с Леонидом Каневским.",
+          "category": "Познавательное",
+          "hit": true
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "hit": true
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "hit": false
+        },
+        {
+          "id": 6700482,
+          "title": "Секретные материалы.",
+          "category": "Другое",
+          "hit": false
+        }
+      ]
+    },
+    "ap5": {
+      "popularity": 0.4,
+      "repeat": 0.6,
+      "cbf28": 0.2,
+      "ar20_28": 0.52,
+      "als48": 0.27999999999999997,
+      "item_cosine": 0.3833333333333333,
+      "time_context": 0.6,
+      "program_lift": 0.6,
+      "advanced_hybrid": 0.6
+    }
+  }
+]

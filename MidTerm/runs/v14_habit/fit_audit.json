@@ -1,0 +1,77 @@
+{
+  "early_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": [
+      2.424785958999564,
+      2.9747920419977163
+    ]
+  },
+  "original_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": [
+      4.657971958000417,
+      5.278502666998975
+    ]
+  },
+  "late_6w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": [
+      7.669555250002304,
+      7.765842083997995
+    ]
+  }
+}

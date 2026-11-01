@@ -1,0 +1,37 @@
+{
+  "pages": 6,
+  "main_text_pages": 5,
+  "reference_pages": 1,
+  "page_checks": [
+    {
+      "page": 1,
+      "last_content_y": 273.8897637795277,
+      "no_vertical_overflow": true
+    },
+    {
+      "page": 2,
+      "last_content_y": 203.18976377952768,
+      "no_vertical_overflow": true
+    },
+    {
+      "page": 3,
+      "last_content_y": 176.3897637795277,
+      "no_vertical_overflow": true
+    },
+    {
+      "page": 4,
+      "last_content_y": 232.0897637795277,
+      "no_vertical_overflow": true
+    },
+    {
+      "page": 5,
+      "last_content_y": 90.626722440945,
+      "no_vertical_overflow": true
+    },
+    {
+      "page": 6,
+      "last_content_y": 399.8897637795277,
+      "no_vertical_overflow": true
+    }
+  ]
+}

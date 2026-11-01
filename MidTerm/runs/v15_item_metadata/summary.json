@@ -1,0 +1,29 @@
+[
+  {
+    "method": "metadata_full",
+    "mean_map5": 0.4161919938368655,
+    "split_scores": {
+      "early_10w": 0.44492890887616976,
+      "original_10w": 0.41940966612816377,
+      "late_6w": 0.384237406506263
+    }
+  },
+  {
+    "method": "metadata_fusion50",
+    "mean_map5": 0.4159531509672043,
+    "split_scores": {
+      "early_10w": 0.4435313891160171,
+      "original_10w": 0.4196439149165321,
+      "late_6w": 0.3846841488690637
+    }
+  },
+  {
+    "method": "metadata_control45",
+    "mean_map5": 0.4158239315478535,
+    "split_scores": {
+      "early_10w": 0.44312028709003365,
+      "original_10w": 0.41902934841141637,
+      "late_6w": 0.3853221591421105
+    }
+  }
+]

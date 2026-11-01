@@ -1,0 +1,47 @@
+[
+  {
+    "method": "combined86_reference_weight0.25",
+    "split": "early_10w",
+    "map5": 0.4461015717270828
+  },
+  {
+    "method": "combined86_reference_weight0.5",
+    "split": "early_10w",
+    "map5": 0.446189016080676
+  },
+  {
+    "method": "combined86_reference_weight0.75",
+    "split": "early_10w",
+    "map5": 0.4461558553647679
+  },
+  {
+    "method": "combined86_reference_weight0.25",
+    "split": "original_10w",
+    "map5": 0.4245393555914558
+  },
+  {
+    "method": "combined86_reference_weight0.5",
+    "split": "original_10w",
+    "map5": 0.4233169538682463
+  },
+  {
+    "method": "combined86_reference_weight0.75",
+    "split": "original_10w",
+    "map5": 0.4236063992101957
+  },
+  {
+    "method": "combined86_reference_weight0.25",
+    "split": "late_6w",
+    "map5": 0.3898844282238443
+  },
+  {
+    "method": "combined86_reference_weight0.5",
+    "split": "late_6w",
+    "map5": 0.3892407857979634
+  },
+  {
+    "method": "combined86_reference_weight0.75",
+    "split": "late_6w",
+    "map5": 0.3906066955032892
+  }
+]

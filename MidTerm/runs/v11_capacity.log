@@ -1,0 +1,47 @@
+FIT early_10w hgb100_leaf15 2.39
+FIT early_10w hgb300_leaf15 5.54
+FIT early_10w hgb300_leaf31 6.4
+early_10w hgb100_leaf15 0.443120
+early_10w hgb300_leaf15 0.440245
+early_10w hgb300_leaf31 0.438463
+FIT original_10w hgb100_leaf15 4.59
+FIT original_10w hgb300_leaf15 10.83
+FIT original_10w hgb300_leaf31 12.6
+original_10w hgb100_leaf15 0.419029
+original_10w hgb300_leaf15 0.418889
+original_10w hgb300_leaf31 0.418922
+FIT late_6w hgb100_leaf15 6.29
+FIT late_6w hgb300_leaf15 14.97
+FIT late_6w hgb300_leaf31 16.17
+late_6w hgb100_leaf15 0.385322
+late_6w hgb300_leaf15 0.382605
+late_6w hgb300_leaf31 0.380564
+SUMMARY [
+  {
+    "method": "hgb100_leaf15",
+    "mean_map5": 0.4158239315478535,
+    "split_scores": {
+      "early_10w": 0.44312028709003365,
+      "original_10w": 0.41902934841141637,
+      "late_6w": 0.3853221591421105
+    }
+  },
+  {
+    "method": "hgb300_leaf15",
+    "mean_map5": 0.4139131307628123,
+    "split_scores": {
+      "early_10w": 0.4402450713182521,
+      "original_10w": 0.41888933764135705,
+      "late_6w": 0.38260498332882764
+    }
+  },
+  {
+    "method": "hgb300_leaf31",
+    "mean_map5": 0.41264952021640533,
+    "split_scores": {
+      "early_10w": 0.43846279640228947,
+      "original_10w": 0.418921647819063,
+      "late_6w": 0.3805641164278634
+    }
+  }
+]

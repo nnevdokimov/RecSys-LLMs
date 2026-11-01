@@ -1,0 +1,36 @@
+{
+  "cohort_users": 500,
+  "eligible_users": 477,
+  "empty_truth_users": 23,
+  "metrics": {
+    "selected_ranker": {
+      "map5": 0.3964890519450267,
+      "map5_all_users_empty_zero": 0.37825055555555553,
+      "map5_gt5": 0.41624697336561745,
+      "map5_cold": null,
+      "map5_warm": 0.3964890519450267
+    },
+    "v4_classifier": {
+      "map5": 0.39670160726764503,
+      "map5_all_users_empty_zero": 0.3784533333333333,
+      "map5_gt5": 0.41491525423728814,
+      "map5_cold": null,
+      "map5_warm": 0.39670160726764503
+    },
+    "popularity": {
+      "map5": 0.2614511996273003,
+      "map5_all_users_empty_zero": 0.24942444444444445,
+      "map5_gt5": 0.2664810330912026,
+      "map5_cold": null,
+      "map5_warm": 0.2614511996273003
+    }
+  },
+  "mean_delta_vs_v4": -0.00021255532261821693,
+  "paired_user_bootstrap_95_interval": [
+    -0.005672053342650828,
+    0.005382206498951775
+  ],
+  "parameters_frozen_before_reserve_labels": true,
+  "labels_used_for_fit_or_retuning": false,
+  "caveat": "Auxiliary new-user cohort, shared calendar/items, not a fresh time period; selection audience differs from Kaggle template."
+}

@@ -1,0 +1,8 @@
+{
+  "feature_config":"configs/nested_category.json",
+  "ranker_config":"configs/lambdarank.json",
+  "vocabulary_cutoff_exclusive":"2020-03-23 00:00:00",
+  "variants":[{"name":"combined86_reference","objective":"lambdarank","num_leaves":15},{"name":"combined86_leaf31","objective":"lambdarank","num_leaves":31},{"name":"combined86_xendcg","objective":"rank_xendcg","num_leaves":15}],
+  "fixed":"Same 86 features, candidates, 150 trees, learning rate 0.07, min leaf100, L2=10, seed42. No early stopping or outer labels in fit.",
+  "selection":"Highest mean of three historical MAP@5 values; reserve-user check only after choice is frozen"
+}

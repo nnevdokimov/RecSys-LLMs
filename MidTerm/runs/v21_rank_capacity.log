@@ -1,0 +1,50 @@
+early_10w combined86_reference 0.446178
+early_10w rank86_leaf7 0.446915
+early_10w rank86_trees100 0.446238
+early_10w rank86_trees200 0.444524
+original_10w combined86_reference 0.423623
+original_10w rank86_leaf7 0.420829
+original_10w rank86_trees100 0.424610
+original_10w rank86_trees200 0.422992
+late_6w combined86_reference 0.390558
+late_6w rank86_leaf7 0.388048
+late_6w rank86_trees100 0.389774
+late_6w rank86_trees200 0.389805
+SUMMARY [
+  {
+    "method": "rank86_trees100",
+    "mean_map5": 0.42020715673434345,
+    "split_scores": {
+      "early_10w": 0.44623784864177335,
+      "original_10w": 0.42461003410518766,
+      "late_6w": 0.3897735874560692
+    }
+  },
+  {
+    "method": "combined86_reference",
+    "mean_map5": 0.42011941589098994,
+    "split_scores": {
+      "early_10w": 0.44617765967111833,
+      "original_10w": 0.42362255429904866,
+      "late_6w": 0.3905580337028026
+    }
+  },
+  {
+    "method": "rank86_trees200",
+    "mean_map5": 0.41910711547958596,
+    "split_scores": {
+      "early_10w": 0.44452371218315617,
+      "original_10w": 0.422992281457548,
+      "late_6w": 0.3898053527980535
+    }
+  },
+  {
+    "method": "rank86_leaf7",
+    "mean_map5": 0.4185970699178669,
+    "split_scores": {
+      "early_10w": 0.44691491777959486,
+      "original_10w": 0.42082862143241795,
+      "late_6w": 0.3880476705415878
+    }
+  }
+]

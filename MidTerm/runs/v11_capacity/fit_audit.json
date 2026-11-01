@@ -1,0 +1,83 @@
+{
+  "early_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      }
+    ],
+    "all_fit_label_ends_at_or_before_outer_cutoff": true,
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "hgb100_leaf15": 2.3914276249997783,
+      "hgb300_leaf15": 5.540818207999109,
+      "hgb300_leaf31": 6.397642708001513
+    }
+  },
+  "original_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      }
+    ],
+    "all_fit_label_ends_at_or_before_outer_cutoff": true,
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "hgb100_leaf15": 4.5900627079972764,
+      "hgb300_leaf15": 10.825096124997799,
+      "hgb300_leaf31": 12.595024124999327
+    }
+  },
+  "late_6w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      }
+    ],
+    "all_fit_label_ends_at_or_before_outer_cutoff": true,
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "hgb100_leaf15": 6.286636875000113,
+      "hgb300_leaf15": 14.966999416999897,
+      "hgb300_leaf31": 16.172796415998164
+    }
+  }
+}

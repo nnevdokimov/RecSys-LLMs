@@ -1,0 +1,68 @@
+[
+  {
+    "split": "early_10w",
+    "method": "partial_candidates_control45",
+    "map5": 0.44421754338148445,
+    "map5_all_users_empty_zero": 0.4311730599647266,
+    "map5_gt5": 0.4579369289714117,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44799398033269,
+    "fit_seconds": 2.4018829999986337,
+    "candidate_gt_coverage": 0.9059800101643233
+  },
+  {
+    "split": "early_10w",
+    "method": "partial_full55",
+    "map5": 0.4418513218860725,
+    "map5_all_users_empty_zero": 0.4288763227513228,
+    "map5_gt5": 0.45578838785735337,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44560035842293905,
+    "fit_seconds": 2.71827170799952,
+    "candidate_gt_coverage": 0.9059800101643233
+  },
+  {
+    "split": "original_10w",
+    "method": "partial_candidates_control45",
+    "map5": 0.41843362950996227,
+    "map5_all_users_empty_zero": 0.41112764550264547,
+    "map5_gt5": 0.4343913043478261,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.4213950163398692,
+    "fit_seconds": 4.578694125000766,
+    "candidate_gt_coverage": 0.8885928393005829
+  },
+  {
+    "split": "original_10w",
+    "method": "partial_full55",
+    "map5": 0.41874371746544614,
+    "map5_all_users_empty_zero": 0.4114323192239859,
+    "map5_gt5": 0.4346260869565217,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.42170865105301386,
+    "fit_seconds": 5.032275917001243,
+    "candidate_gt_coverage": 0.8885928393005829
+  },
+  {
+    "split": "late_6w",
+    "method": "partial_candidates_control45",
+    "map5": 0.38477448860052266,
+    "map5_all_users_empty_zero": 0.37652932098765435,
+    "map5_gt5": 0.40509519492293744,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3867378159665394,
+    "fit_seconds": 6.33554891699896,
+    "candidate_gt_coverage": 0.8669950738916257
+  },
+  {
+    "split": "late_6w",
+    "method": "partial_full55",
+    "map5": 0.3839078129224115,
+    "map5_all_users_empty_zero": 0.3756812169312169,
+    "map5_gt5": 0.4042157751586582,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3858633387888707,
+    "fit_seconds": 6.973081791998993,
+    "candidate_gt_coverage": 0.8669950738916257
+  }
+]

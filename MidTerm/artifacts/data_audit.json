@@ -1,0 +1,243 @@
+{
+  "files": {
+    "dataset11-30.csv": {
+      "bytes": 396216555,
+      "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b"
+    },
+    "export_arh_11-20-final.csv": {
+      "bytes": 153322643,
+      "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c"
+    },
+    "export_arh_21-30-final.csv": {
+      "bytes": 154366907,
+      "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4"
+    },
+    "export_arh_31-42-final.csv": {
+      "bytes": 185952991,
+      "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088"
+    },
+    "submission.csv": {
+      "bytes": 38348,
+      "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02"
+    }
+  },
+  "schedule": [
+    {
+      "rows": 1074235,
+      "channels": 400,
+      "programs": 5847,
+      "labelled_rows": 115613,
+      "start_min": "2020-03-08 23:00:00",
+      "start_max": "2020-05-18 11:45:00",
+      "exact_duplicate_rows": 0,
+      "invalid_time_or_duration": 1,
+      "duration_quantiles": [
+        0.0,
+        600.0,
+        1500.0,
+        3000.0,
+        6900.0,
+        12600.0,
+        86400.0
+      ],
+      "file": "export_arh_11-20-final.csv",
+      "nulls": {
+        "channel_id": 0,
+        "channel_title": 0,
+        "start_time": 0,
+        "duration": 0,
+        "tv_show_title": 0,
+        "tv_show_id": 0,
+        "tv_show_category": 0,
+        "tv_show_genre_1": 620089,
+        "tv_show_genre_2": 928009,
+        "tv_show_genre_3": 1054059,
+        "year_of_production": 959500,
+        "director": 974050,
+        "actors": 973861
+      }
+    },
+    {
+      "rows": 1074394,
+      "channels": 403,
+      "programs": 6363,
+      "labelled_rows": 121505,
+      "start_min": "2020-05-18 00:00:00",
+      "start_max": "2020-07-27 11:55:00",
+      "exact_duplicate_rows": 0,
+      "invalid_time_or_duration": 0,
+      "duration_quantiles": [
+        60.0,
+        600.0,
+        1500.0,
+        3000.0,
+        7200.0,
+        13200.0,
+        86400.0
+      ],
+      "file": "export_arh_21-30-final.csv",
+      "nulls": {
+        "channel_id": 0,
+        "channel_title": 0,
+        "start_time": 0,
+        "duration": 0,
+        "tv_show_title": 0,
+        "tv_show_id": 0,
+        "tv_show_category": 0,
+        "tv_show_genre_1": 616370,
+        "tv_show_genre_2": 924020,
+        "tv_show_genre_3": 1050668,
+        "year_of_production": 954382,
+        "director": 969487,
+        "actors": 968834
+      }
+    },
+    {
+      "rows": 1295378,
+      "channels": 404,
+      "programs": 6636,
+      "labelled_rows": 144774,
+      "start_min": "2020-07-27 00:00:00",
+      "start_max": "2020-10-19 11:55:00",
+      "exact_duplicate_rows": 0,
+      "invalid_time_or_duration": 0,
+      "duration_quantiles": [
+        60.0,
+        600.0,
+        1500.0,
+        3000.0,
+        7200.0,
+        13500.0,
+        43200.0
+      ],
+      "file": "export_arh_31-42-final.csv",
+      "nulls": {
+        "channel_id": 0,
+        "channel_title": 0,
+        "start_time": 0,
+        "duration": 0,
+        "tv_show_title": 0,
+        "tv_show_id": 0,
+        "tv_show_category": 0,
+        "tv_show_genre_1": 737871,
+        "tv_show_genre_2": 1113598,
+        "tv_show_genre_3": 1266621,
+        "year_of_production": 1151706,
+        "director": 1170189,
+        "actors": 1169519
+      }
+    }
+  ],
+  "timezone": "No timezone offsets in either source; retain identical naive wall-clock times. Absolute timezone not established.",
+  "logs": {
+    "rows": 5821987,
+    "users": 4914,
+    "channels": 202,
+    "start_min": "2020-03-09 00:00:02",
+    "start_max": "2020-07-26 23:58:42",
+    "end_max": "2020-07-26 23:59:58",
+    "exact_duplicates": 17,
+    "invalid_times": 0,
+    "duration_disagreements": 117,
+    "duration_quantiles": [
+      61.0,
+      133.0,
+      396.0,
+      1452.0,
+      6344.0,
+      14079.139999999665,
+      342145.0
+    ],
+    "nulls": {
+      "user_id": 0,
+      "vsetv_id": 0,
+      "start_time": 0,
+      "stop_time": 0,
+      "duraton": 0
+    }
+  },
+  "channel_mapping": {
+    "logs": 5821970,
+    "matching_channel_logs": 5708392,
+    "missing_channels": 5
+  },
+  "missing_channels": [
+    {
+      "channel_id": 1174,
+      "logs": 86882
+    },
+    {
+      "channel_id": 1510,
+      "logs": 9357
+    },
+    {
+      "channel_id": 1509,
+      "logs": 8546
+    },
+    {
+      "channel_id": 1508,
+      "logs": 7491
+    },
+    {
+      "channel_id": 149,
+      "logs": 1302
+    }
+  ],
+  "template": {
+    "rows": 1260,
+    "users": 1260,
+    "valid_five_lists": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "users_absent_from_logs": 0
+  },
+  "coverage_any_airtime": {
+    "matched_logs": 5408582
+  },
+  "labelled_overlap": {
+    "interval_pairs": 3847683,
+    "matched_logs": 2964335,
+    "users": 4895,
+    "overlap_seconds_quantiles": [
+      1.0,
+      155.0,
+      523.0,
+      1500.0,
+      4908.0,
+      7200.0,
+      30000.0
+    ],
+    "overlap_fraction_quantiles": [
+      3.436426116838488e-05,
+      0.02971631205673759,
+      0.11608695652173913,
+      0.44692645074224024,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "logs_crossing_multiple_airings": 590192
+  },
+  "air_views": {
+    "user_air_pairs": 3014129,
+    "fraction_80_pairs": 611760,
+    "absolute_300_pairs": 2078912,
+    "max_fraction": 1.0,
+    "fraction_quantiles": [
+      3.436426116838488e-05,
+      0.043666666666666666,
+      0.195,
+      0.6566666666666666,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "schedule_conflicts": {
+    "conflicting_slots": 0
+  },
+  "preparation_seconds": 20.39381625000169,
+  "peak_rss_bytes": 2502574080
+}

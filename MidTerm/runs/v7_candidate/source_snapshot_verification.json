@@ -1,0 +1,8 @@
+{
+  "files": 85,
+  "all_snapshot_hashes_match_frozen_manifest": true,
+  "post_fit_changes_only": [
+    "scripts/inspect_graded_ranker.py"
+  ],
+  "note": "Inspector later extended with v6 display row; original snapshot recovered by original copy recipe and exact hash. Model/feature/training source unchanged."
+}

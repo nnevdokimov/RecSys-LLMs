@@ -1,0 +1,107 @@
+{
+  "early_10w": {
+    "outer_cutoff": "2020-04-20 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00",
+        "rows": 56333,
+        "positive_rows": 4854,
+        "candidate_gt_coverage": 0.8707137858642408
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00",
+        "rows": 56343,
+        "positive_rows": 4169,
+        "candidate_gt_coverage": 0.8300692383778437
+      }
+    ],
+    "fit_seconds": 0.7253252499976952,
+    "outer_labels_used_in_fit": false
+  },
+  "original_10w": {
+    "outer_cutoff": "2020-05-18 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 57483,
+        "positive_rows": 5027,
+        "candidate_gt_coverage": 0.864792948611342
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 59772,
+        "positive_rows": 4954,
+        "candidate_gt_coverage": 0.8477191792436832
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 60406,
+        "positive_rows": 4691,
+        "candidate_gt_coverage": 0.8337473385379702
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 58805,
+        "positive_rows": 3877,
+        "candidate_gt_coverage": 0.7867423474559092
+      }
+    ],
+    "fit_seconds": 1.3848992909988738,
+    "outer_labels_used_in_fit": false
+  },
+  "late_6w": {
+    "outer_cutoff": "2020-06-15 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 57483,
+        "positive_rows": 5027,
+        "candidate_gt_coverage": 0.864792948611342
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00",
+        "rows": 60082,
+        "positive_rows": 5037,
+        "candidate_gt_coverage": 0.8525662529352567
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "rows": 61450,
+        "positive_rows": 4899,
+        "candidate_gt_coverage": 0.8389685792349727
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "rows": 60823,
+        "positive_rows": 4413,
+        "candidate_gt_coverage": 0.8096372297544888
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "rows": 47512,
+        "positive_rows": 3329,
+        "candidate_gt_coverage": 0.7982266954229571
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "rows": 43788,
+        "positive_rows": 2630,
+        "candidate_gt_coverage": 0.7596764875794338
+      }
+    ],
+    "fit_seconds": 1.8950123329996131,
+    "outer_labels_used_in_fit": false
+  }
+}

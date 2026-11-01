@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "inner_min_train_days": 14,
+  "inner_step_days": 14,
+  "inner_max_forecast_days": 56,
+  "inner_min_forecast_days": 14,
+  "candidate_top_k": {
+    "v2": 40,
+    "raw_time": 20,
+    "repeat": 20,
+    "item_cosine": 20,
+    "content": 10,
+    "association": 10,
+    "popularity": 5
+  },
+  "estimator": {
+    "learning_rate": 0.07,
+    "max_iter": 100,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 100,
+    "l2_regularization": 10,
+    "early_stopping": false
+  },
+  "blends": [
+    1.0,
+    0.5
+  ],
+  "label": "Membership in next-window top-5 qualified programme IDs; never outer validation labels",
+  "features": "Log and per-user normalized component scores; recency; program and user history; past/future supply; horizon. No raw user/item identifiers or future metadata.",
+  "candidate_pool": "Same legal pool as baseline. Candidate generation is the union of documented top-k lists, then reranking; ungenerated items have zero score and common popularity fallback.",
+  "selection": "Mean of three historical outer MAP@5 values, all variants retained",
+  "reference": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html"
+}

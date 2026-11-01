@@ -1,0 +1,38 @@
+early_10w combined86_reference 0.446178
+early_10w combined86_leaf31 0.442547
+early_10w combined86_xendcg 0.446597
+original_10w combined86_reference 0.423623
+original_10w combined86_leaf31 0.420132
+original_10w combined86_xendcg 0.421140
+late_6w combined86_reference 0.390558
+late_6w combined86_leaf31 0.385046
+late_6w combined86_xendcg 0.385652
+SUMMARY [
+  {
+    "method": "combined86_reference",
+    "mean_map5": 0.42011941589098994,
+    "split_scores": {
+      "early_10w": 0.44617765967111833,
+      "original_10w": 0.42362255429904866,
+      "late_6w": 0.3905580337028026
+    }
+  },
+  {
+    "method": "combined86_xendcg",
+    "mean_map5": 0.41779625042576213,
+    "split_scores": {
+      "early_10w": 0.44659739256836567,
+      "original_10w": 0.42113983126907195,
+      "late_6w": 0.3856515274398486
+    }
+  },
+  {
+    "method": "combined86_leaf31",
+    "mean_map5": 0.41590822758403106,
+    "split_scores": {
+      "early_10w": 0.4425470155355683,
+      "original_10w": 0.42013170884939866,
+      "late_6w": 0.38504595836712624
+    }
+  }
+]

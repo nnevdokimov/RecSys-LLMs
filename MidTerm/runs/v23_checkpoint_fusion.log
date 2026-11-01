@@ -1,0 +1,29 @@
+[
+  {
+    "method": "combined86_reference_weight0.25",
+    "mean_map5": 0.42017511851412764,
+    "split_scores": {
+      "early_10w": 0.4461015717270828,
+      "original_10w": 0.4245393555914558,
+      "late_6w": 0.3898844282238443
+    }
+  },
+  {
+    "method": "combined86_reference_weight0.75",
+    "mean_map5": 0.42012298335941756,
+    "split_scores": {
+      "early_10w": 0.4461558553647679,
+      "original_10w": 0.4236063992101957,
+      "late_6w": 0.3906066955032892
+    }
+  },
+  {
+    "method": "combined86_reference_weight0.5",
+    "mean_map5": 0.41958225191562853,
+    "split_scores": {
+      "early_10w": 0.446189016080676,
+      "original_10w": 0.4233169538682463,
+      "late_6w": 0.3892407857979634
+    }
+  }
+]

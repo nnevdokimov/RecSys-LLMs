@@ -1,0 +1,20 @@
+[
+  {
+    "method": "nested_hgb_weight1.0",
+    "mean_map5": 0.4151084416869309,
+    "split_scores": {
+      "early_10w": 0.4428656763877533,
+      "original_10w": 0.417172859450727,
+      "late_6w": 0.3852867892223123
+    }
+  },
+  {
+    "method": "nested_hgb_weight0.5",
+    "mean_map5": 0.41388047872607103,
+    "split_scores": {
+      "early_10w": 0.44458435541019353,
+      "original_10w": 0.41589054927302094,
+      "late_6w": 0.38116653149499863
+    }
+  }
+]

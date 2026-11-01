@@ -1,0 +1,17 @@
+[
+  {
+    "split": "early_10w",
+    "remove_future_only_users_from_training_roster_predictions_identical": true,
+    "training_roster_or_known_template_users": 4859
+  },
+  {
+    "split": "original_10w",
+    "remove_future_only_users_from_training_roster_predictions_identical": true,
+    "training_roster_or_known_template_users": 4880
+  },
+  {
+    "split": "late_6w",
+    "remove_future_only_users_from_training_roster_predictions_identical": true,
+    "training_roster_or_known_template_users": 4890
+  }
+]

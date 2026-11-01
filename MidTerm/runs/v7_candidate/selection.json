@@ -1,0 +1,74 @@
+{
+  "method": "top5_rank_gain",
+  "mean_map5": 0.4207855617610798,
+  "split_scores": {
+    "early_10w": 0.44835377487053685,
+    "original_10w": 0.4246600700053851,
+    "late_6w": 0.3893428404073173
+  },
+  "parameters": {
+    "objective": "lambdarank",
+    "learning_rate": 0.07,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "random_state": 42,
+    "n_jobs": 4,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1,
+    "label_gain": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "lambdarank_truncation_level": 8,
+    "n_estimators": 150,
+    "num_leaves": 15
+  },
+  "vocabulary": {
+    "fitted_until_exclusive": "2020-03-23 00:00:00",
+    "categories": [
+      "Детям",
+      "Другое",
+      "Инфо",
+      "Познавательное",
+      "Развлечения",
+      "Сериалы",
+      "Фильмы"
+    ],
+    "genres": [
+      "комедия",
+      "драма",
+      "приключения",
+      "боевик",
+      "мелодрама",
+      "фантазия",
+      "триллер",
+      "криминал",
+      "детектив",
+      "фантастика",
+      "биографический",
+      "музыкальный",
+      "спортивный",
+      "ужастик",
+      "военный",
+      "исторический",
+      "мистика",
+      "развлекательные",
+      "общество и политика",
+      "юмор"
+    ]
+  },
+  "feature_config": "configs/nested_category.json",
+  "feature_count": 86,
+  "source_folder": "runs/v25_rank_graded",
+  "label_strategy": "Top5 gains5..1 ordered by inner future frequency, zeros outside Top5; external MAP stays binary",
+  "criterion": "Highest historical three-split mean; broad overlapping search disclosed",
+  "private_score_used_for_parameter_selection": false,
+  "reserve_user_labels_used_for_choice": false,
+  "private_score": null,
+  "caveat": "Mean gain0.000666 over v5, late split lower, no independent significance claim"
+}

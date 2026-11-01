@@ -1,0 +1,33 @@
+{
+  "reference": "v2_reference",
+  "variants": [
+    {
+      "name": "clock2h_weekend21",
+      "bucket_hours": 2,
+      "day_mode": "weekend",
+      "shrink_days": 21
+    },
+    {
+      "name": "clock1h_weekend21",
+      "bucket_hours": 1,
+      "day_mode": "weekend",
+      "shrink_days": 21
+    },
+    {
+      "name": "clock4h_weekday7",
+      "bucket_hours": 4,
+      "day_mode": "weekday",
+      "shrink_days": 7
+    },
+    {
+      "name": "clock2h_weekday7",
+      "bucket_hours": 2,
+      "day_mode": "weekday",
+      "shrink_days": 7
+    }
+  ],
+  "fixed": "Full past history; airing mean integration; program pseudocount 1; v2 adaptive item-cosine weight",
+  "rationale": "Distinguish clock routines hidden by four-hour bins, then test seven day types with comparable smoothing per observed slot",
+  "selection": "Mean MAP@5 across the same three historical splits, report every split and all variants",
+  "private_score_used_for_parameter_selection": false
+}

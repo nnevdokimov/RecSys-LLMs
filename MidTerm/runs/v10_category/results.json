@@ -1,0 +1,68 @@
+[
+  {
+    "split": "early_10w",
+    "method": "nested_hgb_weight1.0",
+    "map5": 0.44312028709003365,
+    "map5_all_users_empty_zero": 0.43010802469135806,
+    "map5_gt5": 0.4570144414972001,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.4468840180130502,
+    "candidate_gt_coverage": 0.905810604777232,
+    "fit_seconds": 2.3999934580024274
+  },
+  {
+    "split": "early_10w",
+    "method": "nested_hgb_weight0.5",
+    "map5": 0.44543835740892157,
+    "map5_all_users_empty_zero": 0.4323580246913581,
+    "map5_gt5": 0.4594547597995875,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44922893116441504,
+    "candidate_gt_coverage": 0.905810604777232,
+    "fit_seconds": 2.3999934580024274
+  },
+  {
+    "split": "original_10w",
+    "method": "nested_hgb_weight1.0",
+    "map5": 0.41902934841141637,
+    "map5_all_users_empty_zero": 0.41171296296296295,
+    "map5_gt5": 0.4352898550724638,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.42199754901960773,
+    "candidate_gt_coverage": 0.8879267277268943,
+    "fit_seconds": 4.559836792002898
+  },
+  {
+    "split": "original_10w",
+    "method": "nested_hgb_weight0.5",
+    "map5": 0.4179092622509424,
+    "map5_all_users_empty_zero": 0.41061243386243385,
+    "map5_gt5": 0.43447536231884054,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.420864651416122,
+    "candidate_gt_coverage": 0.8879267277268943,
+    "fit_seconds": 4.559836792002898
+  },
+  {
+    "split": "late_6w",
+    "method": "nested_hgb_weight1.0",
+    "map5": 0.3853221591421105,
+    "map5_all_users_empty_zero": 0.37706525573192234,
+    "map5_gt5": 0.405889996977939,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38729041643935264,
+    "candidate_gt_coverage": 0.8659758790555461,
+    "fit_seconds": 6.287602082997182
+  },
+  {
+    "split": "late_6w",
+    "method": "nested_hgb_weight0.5",
+    "map5": 0.3806630170316302,
+    "map5_all_users_empty_zero": 0.3725059523809524,
+    "map5_gt5": 0.4001843457237836,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.38258933442444076,
+    "candidate_gt_coverage": 0.8659758790555461,
+    "fit_seconds": 6.287602082997182
+  }
+]

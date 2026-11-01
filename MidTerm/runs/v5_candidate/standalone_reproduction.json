@@ -1,0 +1,69 @@
+{
+  "checks": {
+    "path": "tmp/reproduced_submission_v5.csv",
+    "rows": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "five_unique_positive_candidate_ids": true,
+    "template_user_order_preserved": true,
+    "sha256": "344c50703e3a6e2e4851e04577305c70538c3ef3687cda55409d08ef6f86b13f"
+  },
+  "fit_audit": {
+    "outer_cutoff": "2020-07-27 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "rows": 154684
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00",
+        "rows": 157704
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "rows": 161242
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-29 00:00:00",
+        "rows": 160734
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-07-13 00:00:00",
+        "rows": 162504
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-07-27 00:00:00",
+        "rows": 166977
+      },
+      {
+        "feature_cutoff": "2020-06-15 00:00:00",
+        "label_end": "2020-07-27 00:00:00",
+        "rows": 165945
+      },
+      {
+        "feature_cutoff": "2020-06-29 00:00:00",
+        "label_end": "2020-07-27 00:00:00",
+        "rows": 163822
+      },
+      {
+        "feature_cutoff": "2020-07-13 00:00:00",
+        "label_end": "2020-07-27 00:00:00",
+        "rows": 160765
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "training_rows": 1454377,
+    "query_count": 10783,
+    "group_sum_equals_rows": true,
+    "rank_fit_seconds": 11.063503708999633
+  },
+  "matches_frozen_submission": true
+}

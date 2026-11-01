@@ -1,0 +1,6 @@
+{
+  "test_schedule_min_start": "2020-07-27 00:00:00",
+  "test_schedule_max_start": "2020-10-19 11:55:00",
+  "test_file_rows_starting_before_final_cutoff": 0,
+  "note": "Parsed dates, not lexical order of DD.MM.YYYY strings. Metadata source uses s<cutoff."
+}

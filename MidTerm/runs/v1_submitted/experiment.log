@@ -1,0 +1,207 @@
+Fitted popularity 0.174
+Fitted repeat 0.171
+Fitted repeat28 0.203
+Fitted content 0.551
+Fitted content28 0.591
+Fitted association5 0.247
+Fitted association20 0.258
+Fitted association20_28 0.284
+{
+  "protocol": {
+    "train_start": "2020-03-09 00:00:00",
+    "cutoff": "2020-05-18 00:00:00",
+    "validation_end": "2020-07-27 00:00:00",
+    "target_users": 1260,
+    "training_users_total": 4914,
+    "eligible_users": 1238,
+    "users_without_ground_truth": 22,
+    "users_with_5_ground_truth": 1150,
+    "candidate_count": 6384,
+    "candidate_gt_coverage": 1.0,
+    "train_user_item_pairs": 114754,
+    "train_air_views": 316314,
+    "target_users_without_training_history": 18,
+    "eligible_cold_users": 14,
+    "candidate_items_without_training_metadata": 2391,
+    "ground_truth_seen_in_train_fraction": 0.6059950041631973,
+    "primary_metric": "MAP@5 over template users with >=1 labelled relevant item; empty users reported separately as zero",
+    "truth_rule": "Top 5 unique IDs by number of airings with union watch fraction >= 0.8, ties item ID ascending",
+    "allow_seen": true,
+    "schedule_policy": "Future schedule supplies candidate IDs and airing intervals only; all scoring metadata and IDF are pre-cutoff",
+    "boundary_rule": "Only airings wholly within a train or validation interval can supply a label",
+    "boundary_crossing_user_air_pairs": 2156
+  },
+  "results": [
+    {
+      "method": "popularity",
+      "map5": 0.2696997845988153,
+      "map5_all_users_empty_zero": 0.26499074074074075,
+      "map5_gt5": 0.2770985507246377,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.27095996732026145,
+      "fit_and_predict_seconds": 0.17375924999942072
+    },
+    {
+      "method": "repeat",
+      "map5": 0.37402441213426674,
+      "map5_all_users_empty_zero": 0.36749382716049384,
+      "map5_gt5": 0.3883942028985507,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.376477850399419,
+      "fit_and_predict_seconds": 0.1712279999992461
+    },
+    {
+      "method": "repeat28",
+      "map5": 0.35841164063902353,
+      "map5_all_users_empty_zero": 0.35215365961199296,
+      "map5_gt5": 0.37246956521739133,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.36068650145243286,
+      "fit_and_predict_seconds": 0.2029541670017352
+    },
+    {
+      "method": "content",
+      "map5": 0.2922760725183988,
+      "map5_all_users_empty_zero": 0.28717283950617284,
+      "map5_gt5": 0.300936231884058,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.29379448075526504,
+      "fit_and_predict_seconds": 0.5514512080007989
+    },
+    {
+      "method": "content28",
+      "map5": 0.294002423263328,
+      "map5_all_users_empty_zero": 0.28886904761904764,
+      "map5_gt5": 0.3031449275362319,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.2955405773420479,
+      "fit_and_predict_seconds": 0.5905376250011614
+    },
+    {
+      "method": "association5",
+      "map5": 0.26809953329743313,
+      "map5_all_users_empty_zero": 0.263418430335097,
+      "map5_gt5": 0.2761101449275362,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.2693414124909223,
+      "fit_and_predict_seconds": 0.24707787499937695
+    },
+    {
+      "method": "association20",
+      "map5": 0.26707727517501345,
+      "map5_all_users_empty_zero": 0.2624140211640211,
+      "map5_gt5": 0.27471014492753626,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.26830746187363835,
+      "fit_and_predict_seconds": 0.2575947499972244
+    },
+    {
+      "method": "association20_28",
+      "map5": 0.2669439956919763,
+      "map5_all_users_empty_zero": 0.2622830687830688,
+      "map5_gt5": 0.2747623188405797,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.26817265795206974,
+      "fit_and_predict_seconds": 0.28448062499955995
+    },
+    {
+      "method": "hybrid80_20",
+      "map5": 0.3721901364207504,
+      "map5_all_users_empty_zero": 0.3656915784832451,
+      "map5_gt5": 0.3864376811594203,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.37462259440813356,
+      "fit_and_predict_seconds": 0.6972738760014181
+    },
+    {
+      "method": "hybrid90_10",
+      "map5": 0.369206605636331,
+      "map5_all_users_empty_zero": 0.36276014109347443,
+      "map5_gt5": 0.38359420289855073,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.37160493827160496,
+      "fit_and_predict_seconds": 0.6839255840022815
+    },
+    {
+      "method": "hybrid80_10_10",
+      "map5": 0.37341792317357747,
+      "map5_all_users_empty_zero": 0.36689792768959434,
+      "map5_gt5": 0.3878608695652174,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.3758644244734931,
+      "fit_and_predict_seconds": 1.5022535000025528
+    },
+    {
+      "method": "hybrid60_20_20",
+      "map5": 0.37468766828217553,
+      "map5_all_users_empty_zero": 0.36814550264550266,
+      "map5_gt5": 0.38856231884057973,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.3771486928104575,
+      "fit_and_predict_seconds": 1.5114377500030969
+    },
+    {
+      "method": "hybrid80_10_10_static_repeat",
+      "map5": 0.3778168192425059,
+      "map5_all_users_empty_zero": 0.37122001763668433,
+      "map5_gt5": 0.39231014492753624,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.38031363471314455,
+      "fit_and_predict_seconds": 1.4712249580006755
+    },
+    {
+      "method": "hybrid60_20_20_static_repeat",
+      "map5": 0.37886420750314126,
+      "map5_all_users_empty_zero": 0.3722491181657848,
+      "map5_gt5": 0.3924666666666667,
+      "map5_cold": 0.15952380952380954,
+      "map5_warm": 0.38137300290486564,
+      "fit_and_predict_seconds": 1.4708475830011594
+    },
+    {
+      "method": "repeat28_absolute300",
+      "map5": 0.34559235325794296,
+      "map5_all_users_empty_zero": 0.33955820105820106,
+      "map5_gt5": 0.35974782608695655,
+      "map5_cold": 0.1716666666666667,
+      "map5_warm": 0.3475816993464052,
+      "fit_and_predict_seconds": 0.35995537499911734
+    }
+  ],
+  "selection": {
+    "selected": "hybrid60_20_20_static_repeat",
+    "selection_metric": "primary hold-out MAP@5",
+    "selection_uses_private_score": false,
+    "delta_vs_popularity": 0.10916442290432599,
+    "paired_bootstrap_95_percentile_interval": [
+      0.098187651453958,
+      0.1206148413660025
+    ],
+    "interval_caveat": "Descriptive same hold-out interval after model selection, not corrected for selection/multiple comparisons.",
+    "delta_vs_repeat": 0.004839795368874529,
+    "paired_interval_vs_repeat": [
+      -0.00016537089391491656,
+      0.009863938251660381
+    ]
+  }
+}
+{
+  "path": "artifacts/final_submission.csv",
+  "rows": 1260,
+  "columns": [
+    "user_id",
+    "tv_show_id"
+  ],
+  "five_unique_positive_candidate_ids": true,
+  "template_user_order_preserved": true,
+  "sha256": "f6f31a19e73b0b6f93db5cc63f116a6136cb515763552c97948462c979086ea5",
+  "method": "hybrid60_20_20_static_repeat",
+  "candidate_count": 6649,
+  "fit_and_predict_seconds": 1.1892156660032924,
+  "training_air_views": 611758,
+  "training_user_item_pairs": 228573,
+  "cold_target_users": 4,
+  "candidate_items_without_training_metadata": 1436,
+  "total_experiment_seconds": 8.104074874998332,
+  "peak_rss_bytes": 2031255552
+}

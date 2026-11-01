@@ -1,0 +1,137 @@
+[
+  {
+    "split": "early_10w",
+    "method": "v2_reference",
+    "map5": 0.43829721995094034,
+    "map5_all_users_empty_zero": 0.42542658730158733,
+    "map5_gt5": 0.4516357206012379,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44200510063413295
+  },
+  {
+    "split": "early_10w",
+    "method": "recent56_mix0.5",
+    "map5": 0.43829721995094034,
+    "map5_all_users_empty_zero": 0.42542658730158733,
+    "map5_gt5": 0.4516357206012379,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44200510063413295
+  },
+  {
+    "split": "early_10w",
+    "method": "recent56_mix1.0",
+    "map5": 0.43829721995094034,
+    "map5_all_users_empty_zero": 0.42542658730158733,
+    "map5_gt5": 0.4516357206012379,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44200510063413295
+  },
+  {
+    "split": "early_10w",
+    "method": "recent84_mix0.5",
+    "map5": 0.43829721995094034,
+    "map5_all_users_empty_zero": 0.42542658730158733,
+    "map5_gt5": 0.4516357206012379,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44200510063413295
+  },
+  {
+    "split": "early_10w",
+    "method": "recent84_mix1.0",
+    "map5": 0.43829721995094034,
+    "map5_all_users_empty_zero": 0.42542658730158733,
+    "map5_gt5": 0.4516357206012379,
+    "map5_cold": 0.1180952380952381,
+    "map5_warm": 0.44200510063413295
+  },
+  {
+    "split": "original_10w",
+    "method": "v2_reference",
+    "map5": 0.40922792137856756,
+    "map5_all_users_empty_zero": 0.402082671957672,
+    "map5_gt5": 0.4255971014492753,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.41208401416122004
+  },
+  {
+    "split": "original_10w",
+    "method": "recent56_mix0.5",
+    "map5": 0.4109711003410519,
+    "map5_all_users_empty_zero": 0.4037954144620811,
+    "map5_gt5": 0.4273130434782608,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.41384713144517066
+  },
+  {
+    "split": "original_10w",
+    "method": "recent56_mix1.0",
+    "map5": 0.4069323281278047,
+    "map5_all_users_empty_zero": 0.39982716049382716,
+    "map5_gt5": 0.4226463768115942,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.40976216412490923
+  },
+  {
+    "split": "original_10w",
+    "method": "recent84_mix0.5",
+    "map5": 0.40922792137856756,
+    "map5_all_users_empty_zero": 0.402082671957672,
+    "map5_gt5": 0.4255971014492753,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.41208401416122004
+  },
+  {
+    "split": "original_10w",
+    "method": "recent84_mix1.0",
+    "map5": 0.40922792137856756,
+    "map5_all_users_empty_zero": 0.402082671957672,
+    "map5_gt5": 0.4255971014492753,
+    "map5_cold": 0.15952380952380954,
+    "map5_warm": 0.41208401416122004
+  },
+  {
+    "split": "late_6w",
+    "method": "v2_reference",
+    "map5": 0.37114895917815627,
+    "map5_all_users_empty_zero": 0.3631957671957672,
+    "map5_gt5": 0.38968872771229984,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3729896344789962
+  },
+  {
+    "split": "late_6w",
+    "method": "recent56_mix0.5",
+    "map5": 0.373522573668559,
+    "map5_all_users_empty_zero": 0.36551851851851846,
+    "map5_gt5": 0.3919794499848897,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3753846153846154
+  },
+  {
+    "split": "late_6w",
+    "method": "recent56_mix1.0",
+    "map5": 0.36090249617013603,
+    "map5_all_users_empty_zero": 0.3531688712522046,
+    "map5_gt5": 0.37932003626473254,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.3626509365339153
+  },
+  {
+    "split": "late_6w",
+    "method": "recent84_mix0.5",
+    "map5": 0.3729546273767685,
+    "map5_all_users_empty_zero": 0.3649627425044092,
+    "map5_gt5": 0.3918041704442429,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.37481155664666305
+  },
+  {
+    "split": "late_6w",
+    "method": "recent84_mix1.0",
+    "map5": 0.37129539515184284,
+    "map5_all_users_empty_zero": 0.3633390652557319,
+    "map5_gt5": 0.3896736174070716,
+    "map5_cold": 0.16666666666666669,
+    "map5_warm": 0.373137388616112
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "selection": {
+    "method": "context21_mean_lift1__adaptive_cos",
+    "mean_rolling_map5": 0.4062247001692214,
+    "split_scores": {
+      "early_10w": 0.43829721995094034,
+      "original_10w": 0.40922792137856756,
+      "late_6w": 0.37114895917815627
+    },
+    "criterion": "Highest mean MAP@5 over the three predefined rolling splits",
+    "private_score_used_for_selection": false,
+    "candidate_private_score": null,
+    "comparisons_vs_v1": {
+      "early_10w": {
+        "users": 1223,
+        "mean_delta_vs_v1": 0.0346549922776415,
+        "descriptive_paired_95_interval": [
+          0.027947113200690474,
+          0.04136130417007358
+        ]
+      },
+      "original_10w": {
+        "users": 1238,
+        "mean_delta_vs_v1": 0.030363713875426315,
+        "descriptive_paired_95_interval": [
+          0.02425327589301741,
+          0.036962893780290794
+        ]
+      },
+      "late_6w": {
+        "users": 1233,
+        "mean_delta_vs_v1": 0.017724610255023882,
+        "descriptive_paired_95_interval": [
+          0.011916379426872126,
+          0.0232593324772461
+        ]
+      }
+    },
+    "caveat": "Intervals computed after extensive model selection on overlapping historical windows. Not an independent significance test.",
+    "parameters": {
+      "context_training_window": "all allowed past",
+      "context_features": [
+        "channel",
+        "weekday/weekend",
+        "4-hour bucket"
+      ],
+      "raw_view_context_shrink_days": 21,
+      "airing_time_integration": "duration-weighted mean of hourly contexts",
+      "program_lift": "(qualified_view_count+1)/(past_context_expected_count+1)",
+      "item_similarity": "binary co-view cosine multiplied by co_support/(co_support+10), top 80 neighbors; no diagonal",
+      "history_similarity_weight": "log(1+qualified_view_count)",
+      "cosine_component_weight": {
+        "default": 0.2,
+        "dominant_category_share>=0.8_and_qualified_air_views>=50": 0.05
+      },
+      "fusion": "per-user max-normalized context score and item-cosine score; shared popularity fallback"
+    },
+    "selection_configurations_checked": 115
+  },
+  "submission": {
+    "path": "runs/v2_candidate/submission_v2.csv",
+    "rows": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "five_unique_positive_candidate_ids": true,
+    "template_user_order_preserved": true,
+    "sha256": "21004456ef3ae2706ddab0d6604e4888b8dfaf6251dd62af500d9d6f4557e743",
+    "all_ids_in_original_test_schedule": true,
+    "train_start": "2020-03-09 00:00:00",
+    "cutoff": "2020-07-27 00:00:00",
+    "test_end": "2020-10-19 00:00:00",
+    "fit_and_predict_seconds": 12.285905415999878,
+    "model": "context21_mean_lift1__adaptive_cos",
+    "v1_sha256_unchanged": true
+  }
+}

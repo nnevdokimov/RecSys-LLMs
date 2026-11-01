@@ -1,0 +1,92 @@
+{
+  "early_10w": {
+    "outer_cutoff": "2020-04-20 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00",
+        "candidate_gt_coverage": 0.9394681595521344
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00",
+        "candidate_gt_coverage": 0.9161226508407517
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "partial_candidates_control45": 2.4018829999986337,
+      "partial_full55": 2.71827170799952
+    }
+  },
+  "original_10w": {
+    "outer_cutoff": "2020-05-18 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "candidate_gt_coverage": 0.9354731415266921
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "candidate_gt_coverage": 0.916737324063083
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "candidate_gt_coverage": 0.9004613200851668
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "candidate_gt_coverage": 0.8761402797486316
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "partial_candidates_control45": 4.578694125000766,
+      "partial_full55": 5.032275917001243
+    }
+  },
+  "late_6w": {
+    "outer_cutoff": "2020-06-15 00:00:00",
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00",
+        "candidate_gt_coverage": 0.9354731415266921
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00",
+        "candidate_gt_coverage": 0.9174773565917478
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "candidate_gt_coverage": 0.9047131147540983
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "candidate_gt_coverage": 0.8805423231953097
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "candidate_gt_coverage": 0.879942487419123
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00",
+        "candidate_gt_coverage": 0.8616406701328712
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "partial_candidates_control45": 6.33554891699896,
+      "partial_full55": 6.973081791998993
+    }
+  }
+}

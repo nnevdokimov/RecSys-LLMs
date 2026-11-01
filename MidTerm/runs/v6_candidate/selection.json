@@ -1,0 +1,70 @@
+{
+  "method": "rank86_trees100",
+  "mean_map5": 0.42020715673434345,
+  "split_scores": {
+    "early_10w": 0.44623784864177335,
+    "original_10w": 0.42461003410518766,
+    "late_6w": 0.3897735874560692
+  },
+  "source_folder": "runs/v21_rank_capacity",
+  "parameters": {
+    "objective": "lambdarank",
+    "learning_rate": 0.07,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "random_state": 42,
+    "n_jobs": 4,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1,
+    "label_gain": [
+      0,
+      1
+    ],
+    "lambdarank_truncation_level": 8,
+    "n_estimators": 100,
+    "num_leaves": 15
+  },
+  "feature_config": "configs/nested_category.json",
+  "feature_count": 86,
+  "vocabulary": {
+    "fitted_until_exclusive": "2020-03-23 00:00:00",
+    "categories": [
+      "Детям",
+      "Другое",
+      "Инфо",
+      "Познавательное",
+      "Развлечения",
+      "Сериалы",
+      "Фильмы"
+    ],
+    "genres": [
+      "комедия",
+      "драма",
+      "приключения",
+      "боевик",
+      "мелодрама",
+      "фантазия",
+      "триллер",
+      "криминал",
+      "детектив",
+      "фантастика",
+      "биографический",
+      "музыкальный",
+      "спортивный",
+      "ужастик",
+      "военный",
+      "исторический",
+      "мистика",
+      "развлекательные",
+      "общество и политика",
+      "юмор"
+    ]
+  },
+  "criterion": "Highest mean across predefined three historical rolling splits; broad search and overlapping windows disclosed",
+  "reserve_user_labels_used_for_choice": false,
+  "private_score_used_for_parameter_selection": false,
+  "private_score": null,
+  "reserve_audit_for_this_version": false,
+  "caveat": "Mean gain over v5 is only 0.00008774; late split is lower; no independent confirmation"
+}

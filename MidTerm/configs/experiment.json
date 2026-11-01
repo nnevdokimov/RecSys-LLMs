@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "data_dir": "sweettv-tv-program-recommender",
+  "train_start": "2020-03-09 00:00:00",
+  "validation_start": "2020-05-18 00:00:00",
+  "validation_end": "2020-07-27 00:00:00",
+  "test_end": "2020-10-19 00:00:00",
+  "watch_fraction": 0.8,
+  "absolute_threshold_seconds": 300,
+  "allow_seen": true,
+  "k": 5,
+  "threads": 4,
+  "memory_limit": "3GB"
+}

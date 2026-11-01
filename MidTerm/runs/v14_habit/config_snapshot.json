@@ -1,0 +1,18 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "new_features": 11,
+  "recent_windows_days": [
+    14,
+    28
+  ],
+  "rate_smoothing": 0.01,
+  "global_audience_pseudocount": 5,
+  "fixed": "Same candidates, same 100-iteration/15-leaf classifier; original 45 features plus habit persistence and normalized recent programme trend",
+  "variants": [
+    "habit_control45",
+    "habit_full56",
+    "habit_fusion50"
+  ],
+  "rationale": "Separate persistent weekly habits from concentrated viewing; distinguish a change in interest from a change in past programme supply",
+  "selection": "Same three historical outer MAP@5 values; no private-score fitting"
+}

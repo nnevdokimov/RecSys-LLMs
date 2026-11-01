@@ -1,0 +1,244 @@
+early_10w popularity MAP5=0.299515 0.15s
+early_10w repeat MAP5=0.400177 0.16s
+early_10w cbf28 MAP5=0.310034 0.46s
+early_10w ar20_28 MAP5=0.290385 0.22s
+early_10w v1_hybrid MAP5=0.403642 0.38s
+early_10w channel_expected MAP5=0.369062 0.25s
+early_10w supply_full_g0.25 MAP5=0.391722 0.23s
+early_10w supply_full_g0.5 MAP5=0.394642 0.21s
+early_10w supply_full_g1.0 MAP5=0.388797 0.21s
+early_10w bayes_supply_full_s5 MAP5=0.398831 0.25s
+early_10w bayes_supply_full_s20 MAP5=0.404264 0.26s
+early_10w repeat_42 MAP5=0.400177 0.19s
+early_10w supply_42_g0.25 MAP5=0.391722 0.22s
+early_10w supply_42_g0.5 MAP5=0.394642 0.21s
+early_10w supply_42_g1.0 MAP5=0.388797 0.21s
+early_10w bayes_supply_42_s5 MAP5=0.398831 0.29s
+early_10w bayes_supply_42_s20 MAP5=0.404264 0.25s
+early_10w repeat_56 MAP5=0.400177 0.18s
+early_10w supply_56_g0.25 MAP5=0.391722 0.21s
+early_10w supply_56_g0.5 MAP5=0.394642 0.21s
+early_10w supply_56_g1.0 MAP5=0.388797 0.21s
+early_10w bayes_supply_56_s5 MAP5=0.398831 0.26s
+early_10w bayes_supply_56_s20 MAP5=0.404264 0.25s
+early_10w item_cosine MAP5=0.212135 0.22s
+early_10w als48_a20_r5 MAP5=0.245472 2.70s
+early_10w als64_a40_r20 MAP5=0.250280 3.29s
+early_10w supply_full_g0.5__item_cosine_20 MAP5=0.413273 0.26s
+early_10w supply_full_g0.5__als48_a20_r5_20 MAP5=0.399597 0.27s
+early_10w supply_full_g0.5__channel_expected_20 MAP5=0.403194 0.27s
+early_10w supply_full_g1.0__item_cosine_20 MAP5=0.411181 0.25s
+early_10w supply_full_g1.0__als48_a20_r5_20 MAP5=0.395557 0.27s
+early_10w supply_full_g1.0__channel_expected_20 MAP5=0.396661 0.29s
+early_10w bayes_supply_full_s5__item_cosine_20 MAP5=0.415857 0.30s
+early_10w bayes_supply_full_s5__als48_a20_r5_20 MAP5=0.403047 0.33s
+early_10w bayes_supply_full_s5__channel_expected_20 MAP5=0.405723 0.29s
+early_10w bayes_supply_full_s20__item_cosine_20 MAP5=0.417523 0.31s
+early_10w bayes_supply_full_s20__als48_a20_r5_20 MAP5=0.405364 0.33s
+early_10w bayes_supply_full_s20__channel_expected_20 MAP5=0.405096 0.31s
+early_10w supply_42_g0.5__item_cosine_20 MAP5=0.413273 0.24s
+early_10w supply_42_g0.5__als48_a20_r5_20 MAP5=0.399597 0.27s
+early_10w supply_42_g0.5__channel_expected_20 MAP5=0.403194 0.27s
+early_10w repeat__als_cbf_60_20_20 MAP5=0.396385 0.41s
+early_10w supply_full_g0.5__als_cbf_60_20_20 MAP5=0.402444 0.44s
+early_10w bayes_supply_full_s5__als_cbf_60_20_20 MAP5=0.405675 0.45s
+original_10w popularity MAP5=0.269700 0.18s
+original_10w repeat MAP5=0.374024 0.18s
+original_10w cbf28 MAP5=0.294002 0.65s
+original_10w ar20_28 MAP5=0.266944 0.33s
+original_10w v1_hybrid MAP5=0.378864 0.45s
+original_10w channel_expected MAP5=0.352364 0.33s
+original_10w supply_full_g0.25 MAP5=0.368487 0.22s
+original_10w supply_full_g0.5 MAP5=0.370911 0.32s
+original_10w supply_full_g1.0 MAP5=0.357339 0.22s
+original_10w bayes_supply_full_s5 MAP5=0.370586 0.31s
+original_10w bayes_supply_full_s20 MAP5=0.382354 0.30s
+original_10w repeat_42 MAP5=0.364033 0.21s
+original_10w supply_42_g0.25 MAP5=0.347162 0.23s
+original_10w supply_42_g0.5 MAP5=0.349740 0.23s
+original_10w supply_42_g1.0 MAP5=0.338743 0.22s
+original_10w bayes_supply_42_s5 MAP5=0.351732 0.30s
+original_10w bayes_supply_42_s20 MAP5=0.367025 0.30s
+original_10w repeat_56 MAP5=0.371015 0.21s
+original_10w supply_56_g0.25 MAP5=0.358506 0.22s
+original_10w supply_56_g0.5 MAP5=0.360181 0.23s
+original_10w supply_56_g1.0 MAP5=0.345810 0.22s
+original_10w bayes_supply_56_s5 MAP5=0.361918 0.29s
+original_10w bayes_supply_56_s20 MAP5=0.375576 0.30s
+original_10w item_cosine MAP5=0.187364 0.32s
+original_10w als48_a20_r5 MAP5=0.171613 3.26s
+original_10w als64_a40_r20 MAP5=0.163248 3.90s
+original_10w supply_full_g0.5__item_cosine_20 MAP5=0.384291 0.28s
+original_10w supply_full_g0.5__als48_a20_r5_20 MAP5=0.376298 0.32s
+original_10w supply_full_g0.5__channel_expected_20 MAP5=0.383160 0.33s
+original_10w supply_full_g1.0__item_cosine_20 MAP5=0.377765 0.29s
+original_10w supply_full_g1.0__als48_a20_r5_20 MAP5=0.366084 0.32s
+original_10w supply_full_g1.0__channel_expected_20 MAP5=0.371664 0.33s
+original_10w bayes_supply_full_s5__item_cosine_20 MAP5=0.386445 0.36s
+original_10w bayes_supply_full_s5__als48_a20_r5_20 MAP5=0.376928 0.37s
+original_10w bayes_supply_full_s5__channel_expected_20 MAP5=0.381681 0.32s
+original_10w bayes_supply_full_s20__item_cosine_20 MAP5=0.394142 0.36s
+original_10w bayes_supply_full_s20__als48_a20_r5_20 MAP5=0.385589 0.38s
+original_10w bayes_supply_full_s20__channel_expected_20 MAP5=0.389902 0.32s
+original_10w supply_42_g0.5__item_cosine_20 MAP5=0.369225 0.26s
+original_10w supply_42_g0.5__als48_a20_r5_20 MAP5=0.360203 0.31s
+original_10w supply_42_g0.5__channel_expected_20 MAP5=0.369216 0.39s
+original_10w repeat__als_cbf_60_20_20 MAP5=0.374393 0.48s
+original_10w supply_full_g0.5__als_cbf_60_20_20 MAP5=0.380965 0.54s
+original_10w bayes_supply_full_s5__als_cbf_60_20_20 MAP5=0.383538 0.53s
+late_6w popularity MAP5=0.274978 0.16s
+late_6w repeat MAP5=0.350962 0.15s
+late_6w cbf28 MAP5=0.275629 0.61s
+late_6w ar20_28 MAP5=0.262358 0.39s
+late_6w v1_hybrid MAP5=0.353424 0.43s
+late_6w channel_expected MAP5=0.325449 0.35s
+late_6w supply_full_g0.25 MAP5=0.342188 0.18s
+late_6w supply_full_g0.5 MAP5=0.340688 0.17s
+late_6w supply_full_g1.0 MAP5=0.323287 0.17s
+late_6w bayes_supply_full_s5 MAP5=0.335553 0.24s
+late_6w bayes_supply_full_s20 MAP5=0.346185 0.24s
+late_6w repeat_42 MAP5=0.324990 0.17s
+late_6w supply_42_g0.25 MAP5=0.303994 0.18s
+late_6w supply_42_g0.5 MAP5=0.303410 0.18s
+late_6w supply_42_g1.0 MAP5=0.292404 0.17s
+late_6w bayes_supply_42_s5 MAP5=0.294595 0.24s
+late_6w bayes_supply_42_s20 MAP5=0.309985 0.23s
+late_6w repeat_56 MAP5=0.337754 0.18s
+late_6w supply_56_g0.25 MAP5=0.316506 0.18s
+late_6w supply_56_g0.5 MAP5=0.315754 0.17s
+late_6w supply_56_g1.0 MAP5=0.301917 0.17s
+late_6w bayes_supply_56_s5 MAP5=0.312536 0.24s
+late_6w bayes_supply_56_s20 MAP5=0.326402 0.23s
+late_6w item_cosine MAP5=0.193734 0.45s
+late_6w als48_a20_r5 MAP5=0.156974 3.57s
+late_6w als64_a40_r20 MAP5=0.138173 4.38s
+late_6w supply_full_g0.5__item_cosine_20 MAP5=0.352786 0.24s
+late_6w supply_full_g0.5__als48_a20_r5_20 MAP5=0.345786 0.27s
+late_6w supply_full_g0.5__channel_expected_20 MAP5=0.351301 0.27s
+late_6w supply_full_g1.0__item_cosine_20 MAP5=0.340378 0.22s
+late_6w supply_full_g1.0__als48_a20_r5_20 MAP5=0.333801 0.27s
+late_6w supply_full_g1.0__channel_expected_20 MAP5=0.336331 0.25s
+late_6w bayes_supply_full_s5__item_cosine_20 MAP5=0.348198 0.28s
+late_6w bayes_supply_full_s5__als48_a20_r5_20 MAP5=0.342216 0.31s
+late_6w bayes_supply_full_s5__channel_expected_20 MAP5=0.344490 0.26s
+late_6w bayes_supply_full_s20__item_cosine_20 MAP5=0.354342 0.27s
+late_6w bayes_supply_full_s20__als48_a20_r5_20 MAP5=0.350091 0.31s
+late_6w bayes_supply_full_s20__channel_expected_20 MAP5=0.352239 0.27s
+late_6w supply_42_g0.5__item_cosine_20 MAP5=0.316449 0.21s
+late_6w supply_42_g0.5__als48_a20_r5_20 MAP5=0.311795 0.26s
+late_6w supply_42_g0.5__channel_expected_20 MAP5=0.319938 0.26s
+late_6w repeat__als_cbf_60_20_20 MAP5=0.351131 0.42s
+late_6w supply_full_g0.5__als_cbf_60_20_20 MAP5=0.351629 0.42s
+late_6w bayes_supply_full_s5__als_cbf_60_20_20 MAP5=0.348795 0.51s
+TOP [
+  {
+    "method": "bayes_supply_full_s20__item_cosine_20",
+    "mean_map5": 0.388669029319148,
+    "min_map5": 0.3543417139767505,
+    "split_scores": {
+      "early_10w": 0.4175229399473062,
+      "original_10w": 0.3941424340333872,
+      "late_6w": 0.3543417139767505
+    },
+    "seconds": 0.9354377489980834
+  },
+  {
+    "method": "bayes_supply_full_s5__item_cosine_20",
+    "mean_map5": 0.3834998841225146,
+    "min_map5": 0.3481979363792016,
+    "split_scores": {
+      "early_10w": 0.4158571817934042,
+      "original_10w": 0.38644453419493807,
+      "late_6w": 0.3481979363792016
+    },
+    "seconds": 0.946805248997407
+  },
+  {
+    "method": "supply_full_g0.5__item_cosine_20",
+    "mean_map5": 0.38345007474431886,
+    "min_map5": 0.35278633865008563,
+    "split_scores": {
+      "early_10w": 0.41327269010629597,
+      "original_10w": 0.38429119547657514,
+      "late_6w": 0.35278633865008563
+    },
+    "seconds": 0.7827117500019085
+  },
+  {
+    "method": "bayes_supply_full_s20__channel_expected_20",
+    "mean_map5": 0.3824121536796394,
+    "min_map5": 0.3522386681084978,
+    "split_scores": {
+      "early_10w": 0.4050956209684746,
+      "original_10w": 0.3899021719619458,
+      "late_6w": 0.3522386681084978
+    },
+    "seconds": 0.8938677510013804
+  },
+  {
+    "method": "bayes_supply_full_s20__als48_a20_r5_20",
+    "mean_map5": 0.38034772828867897,
+    "min_map5": 0.3500905650175723,
+    "split_scores": {
+      "early_10w": 0.4053636322340329,
+      "original_10w": 0.3855889876144319,
+      "late_6w": 0.3500905650175723
+    },
+    "seconds": 1.0188020400019013
+  },
+  {
+    "method": "bayes_supply_full_s5__als_cbf_60_20_20",
+    "mean_map5": 0.3793357524106611,
+    "min_map5": 0.34879471929350275,
+    "split_scores": {
+      "early_10w": 0.40567479785590993,
+      "original_10w": 0.38353774008257047,
+      "late_6w": 0.34879471929350275
+    },
+    "seconds": 1.496695791996899
+  },
+  {
+    "method": "supply_full_g0.5__channel_expected_20",
+    "mean_map5": 0.37921849071859276,
+    "min_map5": 0.35130080201856356,
+    "split_scores": {
+      "early_10w": 0.4031943308803489,
+      "original_10w": 0.383160339256866,
+      "late_6w": 0.35130080201856356
+    },
+    "seconds": 0.8729849589944934
+  },
+  {
+    "method": "v1_hybrid",
+    "mean_map5": 0.3786435946998575,
+    "min_map5": 0.3534243489231324,
+    "split_scores": {
+      "early_10w": 0.4036422276732988,
+      "original_10w": 0.37886420750314126,
+      "late_6w": 0.3534243489231324
+    },
+    "seconds": 1.2631528339989018
+  },
+  {
+    "method": "supply_full_g0.5__als_cbf_60_20_20",
+    "mean_map5": 0.37834629674462056,
+    "min_map5": 0.3516294944579616,
+    "split_scores": {
+      "early_10w": 0.402444353593168,
+      "original_10w": 0.380965042182732,
+      "late_6w": 0.3516294944579616
+    },
+    "seconds": 1.4017439169947465
+  },
+  {
+    "method": "bayes_supply_full_s20",
+    "mean_map5": 0.3776010889615262,
+    "min_map5": 0.34618545552852126,
+    "split_scores": {
+      "early_10w": 0.4042641046606705,
+      "original_10w": 0.3823537066953869,
+      "late_6w": 0.34618545552852126
+    },
+    "seconds": 0.7944427079964953
+  }
+]

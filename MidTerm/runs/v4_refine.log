@@ -1,0 +1,194 @@
+early_10w context21_start_lift1 0.427589
+early_10w context21_start_lift1__cos0.1 0.434607
+early_10w context21_start_lift1__cos0.2 0.436891
+early_10w context21_start_lift1__adaptive_cos 0.437720
+early_10w context21_start_lift5 0.425592
+early_10w context21_start_lift5__cos0.1 0.429900
+early_10w context21_start_lift5__cos0.2 0.428549
+early_10w context21_start_lift5__adaptive_cos 0.429650
+early_10w context21_start_ensemble 0.429055
+early_10w context21_midpoint_lift1 0.426806
+early_10w context21_midpoint_lift1__cos0.1 0.434353
+early_10w context21_midpoint_lift1__cos0.2 0.435403
+early_10w context21_midpoint_lift1__adaptive_cos 0.436362
+early_10w context21_midpoint_lift5 0.423505
+early_10w context21_midpoint_lift5__cos0.1 0.428179
+early_10w context21_midpoint_lift5__cos0.2 0.427367
+early_10w context21_midpoint_lift5__adaptive_cos 0.428253
+early_10w context21_midpoint_ensemble 0.427254
+early_10w context21_mean_lift1 0.427919
+early_10w context21_mean_lift1__cos0.1 0.435053
+early_10w context21_mean_lift1__cos0.2 0.437420
+early_10w context21_mean_lift1__adaptive_cos 0.438297
+early_10w context21_mean_lift5 0.424008
+early_10w context21_mean_lift5__cos0.1 0.429499
+early_10w context21_mean_lift5__cos0.2 0.428279
+early_10w context21_mean_lift5__adaptive_cos 0.429369
+early_10w context21_mean_ensemble 0.427073
+early_10w context21_three_anchors_ensemble 0.427829
+original_10w context21_start_lift1 0.407271
+original_10w context21_start_lift1__cos0.1 0.410578
+original_10w context21_start_lift1__cos0.2 0.409111
+original_10w context21_start_lift1__adaptive_cos 0.410487
+original_10w context21_start_lift5 0.406209
+original_10w context21_start_lift5__cos0.1 0.411477
+original_10w context21_start_lift5__cos0.2 0.408178
+original_10w context21_start_lift5__adaptive_cos 0.409441
+original_10w context21_start_ensemble 0.409815
+original_10w context21_midpoint_lift1 0.407702
+original_10w context21_midpoint_lift1__cos0.1 0.409387
+original_10w context21_midpoint_lift1__cos0.2 0.407515
+original_10w context21_midpoint_lift1__adaptive_cos 0.408988
+original_10w context21_midpoint_lift5 0.406173
+original_10w context21_midpoint_lift5__cos0.1 0.409983
+original_10w context21_midpoint_lift5__cos0.2 0.407921
+original_10w context21_midpoint_lift5__adaptive_cos 0.409286
+original_10w context21_midpoint_ensemble 0.407794
+original_10w context21_mean_lift1 0.407901
+original_10w context21_mean_lift1__cos0.1 0.409851
+original_10w context21_mean_lift1__cos0.2 0.407796
+original_10w context21_mean_lift1__adaptive_cos 0.409228
+original_10w context21_mean_lift5 0.406037
+original_10w context21_mean_lift5__cos0.1 0.411454
+original_10w context21_mean_lift5__cos0.2 0.408171
+original_10w context21_mean_lift5__adaptive_cos 0.409496
+original_10w context21_mean_ensemble 0.408331
+original_10w context21_three_anchors_ensemble 0.408490
+late_6w context21_start_lift1 0.366638
+late_6w context21_start_lift1__cos0.1 0.370374
+late_6w context21_start_lift1__cos0.2 0.369638
+late_6w context21_start_lift1__adaptive_cos 0.370441
+late_6w context21_start_lift5 0.369425
+late_6w context21_start_lift5__cos0.1 0.372603
+late_6w context21_start_lift5__cos0.2 0.371385
+late_6w context21_start_lift5__adaptive_cos 0.372342
+late_6w context21_start_ensemble 0.369855
+late_6w context21_midpoint_lift1 0.366655
+late_6w context21_midpoint_lift1__cos0.1 0.370756
+late_6w context21_midpoint_lift1__cos0.2 0.370042
+late_6w context21_midpoint_lift1__adaptive_cos 0.370861
+late_6w context21_midpoint_lift5 0.368749
+late_6w context21_midpoint_lift5__cos0.1 0.372328
+late_6w context21_midpoint_lift5__cos0.2 0.371270
+late_6w context21_midpoint_lift5__adaptive_cos 0.371941
+late_6w context21_midpoint_ensemble 0.368527
+late_6w context21_mean_lift1 0.365849
+late_6w context21_mean_lift1__cos0.1 0.369717
+late_6w context21_mean_lift1__cos0.2 0.370232
+late_6w context21_mean_lift1__adaptive_cos 0.371149
+late_6w context21_mean_lift5 0.369002
+late_6w context21_mean_lift5__cos0.1 0.372438
+late_6w context21_mean_lift5__cos0.2 0.371258
+late_6w context21_mean_lift5__adaptive_cos 0.371929
+late_6w context21_mean_ensemble 0.368408
+late_6w context21_three_anchors_ensemble 0.369179
+TOP [
+  {
+    "method": "context21_mean_lift1__adaptive_cos",
+    "mean_map5": 0.4062247001692214,
+    "split_scores": {
+      "early_10w": 0.43829721995094034,
+      "original_10w": 0.40922792137856756,
+      "late_6w": 0.37114895917815627
+    }
+  },
+  {
+    "method": "context21_start_lift1__adaptive_cos",
+    "mean_map5": 0.40621580568819465,
+    "split_scores": {
+      "early_10w": 0.43771986008903424,
+      "original_10w": 0.4104866720516963,
+      "late_6w": 0.3704408849238533
+    }
+  },
+  {
+    "method": "context21_midpoint_lift1__adaptive_cos",
+    "mean_map5": 0.4054035819064965,
+    "split_scores": {
+      "early_10w": 0.4363620877623331,
+      "original_10w": 0.4089876144318794,
+      "late_6w": 0.3708610435252771
+    }
+  },
+  {
+    "method": "context21_start_lift1__cos0.2",
+    "mean_map5": 0.4052133528826409,
+    "split_scores": {
+      "early_10w": 0.4368912964477151,
+      "original_10w": 0.4091107969843834,
+      "late_6w": 0.3696379652158241
+    }
+  },
+  {
+    "method": "context21_start_lift1__cos0.1",
+    "mean_map5": 0.40518634453483277,
+    "split_scores": {
+      "early_10w": 0.4346068411011175,
+      "original_10w": 0.4105782175551966,
+      "late_6w": 0.37037397494818425
+    }
+  },
+  {
+    "method": "context21_mean_lift1__cos0.2",
+    "mean_map5": 0.4051491984631978,
+    "split_scores": {
+      "early_10w": 0.4374195966203325,
+      "original_10w": 0.4077955035002692,
+      "late_6w": 0.3702324952689916
+    }
+  },
+  {
+    "method": "context21_mean_lift1__cos0.1",
+    "mean_map5": 0.40487380906505205,
+    "split_scores": {
+      "early_10w": 0.4350531479967293,
+      "original_10w": 0.409851238556812,
+      "late_6w": 0.3697170406416148
+    }
+  },
+  {
+    "method": "context21_midpoint_lift1__cos0.1",
+    "mean_map5": 0.40483229242505175,
+    "split_scores": {
+      "early_10w": 0.43435313891160166,
+      "original_10w": 0.4093874528809908,
+      "late_6w": 0.3707562854825629
+    }
+  },
+  {
+    "method": "context21_start_lift5__cos0.1",
+    "mean_map5": 0.40466010354424503,
+    "split_scores": {
+      "early_10w": 0.4298998364677023,
+      "original_10w": 0.4114772931251122,
+      "late_6w": 0.3726031810399207
+    }
+  },
+  {
+    "method": "context21_mean_lift5__cos0.1",
+    "mean_map5": 0.4044633515657685,
+    "split_scores": {
+      "early_10w": 0.4294985009539384,
+      "original_10w": 0.411453957996769,
+      "late_6w": 0.3724375957465982
+    }
+  },
+  {
+    "method": "context21_midpoint_lift1__cos0.2",
+    "mean_map5": 0.4043198034438151,
+    "split_scores": {
+      "early_10w": 0.43540269828291084,
+      "original_10w": 0.4075148088314486,
+      "late_6w": 0.3700419032170857
+    }
+  },
+  {
+    "method": "context21_start_lift5__adaptive_cos",
+    "mean_map5": 0.4038108242707474,
+    "split_scores": {
+      "early_10w": 0.42964976832924506,
+      "original_10w": 0.40944063004846526,
+      "late_6w": 0.3723420744345318
+    }
+  }
+]

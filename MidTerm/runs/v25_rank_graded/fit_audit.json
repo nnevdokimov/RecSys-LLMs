@@ -1,0 +1,83 @@
+{
+  "early_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "evaluation_truth_stays_binary": true,
+    "fit_seconds": {
+      "binary_reference": 2.4306635829998413,
+      "top5_rank_gain": 2.4085892500006594,
+      "top5_count_cap5": 2.427153917000396
+    }
+  },
+  "original_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "evaluation_truth_stays_binary": true,
+    "fit_seconds": {
+      "binary_reference": 4.753863249999995,
+      "top5_rank_gain": 4.742101708998234,
+      "top5_count_cap5": 4.686305250001169
+    }
+  },
+  "late_6w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "evaluation_truth_stays_binary": true,
+    "fit_seconds": {
+      "binary_reference": 6.716063750001922,
+      "top5_rank_gain": 6.804675583000062,
+      "top5_count_cap5": 6.654946292001114
+    }
+  }
+}

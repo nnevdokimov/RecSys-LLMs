@@ -1,0 +1,8 @@
+{
+  "two_full_fits_identical_sha256": "63f3b6d5f68c9880d36f94a63b8db5a5c60635c04dd8677454db7dd1ab077a7d",
+  "previous_submissions_unchanged": {
+    "artifacts/final_submission.csv": "f6f31a19e73b0b6f93db5cc63f116a6136cb515763552c97948462c979086ea5",
+    "runs/v2_candidate/submission_v2.csv": "21004456ef3ae2706ddab0d6604e4888b8dfaf6251dd62af500d9d6f4557e743"
+  },
+  "validation_all_ranked_lists_identical": true
+}

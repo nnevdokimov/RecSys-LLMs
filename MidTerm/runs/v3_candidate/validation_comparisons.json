@@ -1,0 +1,38 @@
+{
+  "caveat": "Descriptive bootstrap after broad selection on overlapping known validation; not an independent significance test.",
+  "splits": {
+    "early_10w": {
+      "users": 1223,
+      "mean_delta_vs_v2": 0.004440129008812573,
+      "users_improved": 314,
+      "users_worsened": 276,
+      "users_unchanged": 633,
+      "descriptive_paired_95_interval": [
+        -0.000628611338239303,
+        0.009369054919596616
+      ]
+    },
+    "original_10w": {
+      "users": 1238,
+      "mean_delta_vs_v2": 0.008959118650152576,
+      "users_improved": 336,
+      "users_worsened": 249,
+      "users_unchanged": 653,
+      "descriptive_paired_95_interval": [
+        0.004614252378388081,
+        0.013602882112726618
+      ]
+    },
+    "late_6w": {
+      "users": 1233,
+      "mean_delta_vs_v2": 0.013539920699288098,
+      "users_improved": 362,
+      "users_worsened": 239,
+      "users_unchanged": 632,
+      "descriptive_paired_95_interval": [
+        0.00864776516175543,
+        0.018605417004595837
+      ]
+    }
+  }
+}

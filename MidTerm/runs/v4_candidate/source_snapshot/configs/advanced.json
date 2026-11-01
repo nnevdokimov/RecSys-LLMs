@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "splits": [
+    {"name": "early_10w", "cutoff": "2020-04-20 00:00:00", "end": "2020-06-29 00:00:00"},
+    {"name": "original_10w", "cutoff": "2020-05-18 00:00:00", "end": "2020-07-27 00:00:00"},
+    {"name": "late_6w", "cutoff": "2020-06-15 00:00:00", "end": "2020-07-27 00:00:00"}
+  ],
+  "train_start": "2020-03-09 00:00:00",
+  "output_dir": "runs/v2_experiments",
+  "selection": "mean MAP@5 over three rolling splits; overlapping periods, not independent tests",
+  "test_views_used": false,
+  "submitted_v1_private_score_used_for_selection": false
+}

@@ -1,0 +1,22 @@
+test_als_minimizes_actual_weighted_objective (test_advanced.AdvancedTests.test_als_minimizes_actual_weighted_objective) ... ok
+test_category_clock_uses_only_past_categories_and_views (test_advanced.AdvancedTests.test_category_clock_uses_only_past_categories_and_views) ... ok
+test_clock_context_is_causal_and_integrates_airing_duration (test_advanced.AdvancedTests.test_clock_context_is_causal_and_integrates_airing_duration) ... ok
+test_frequency_target_uses_all_counts_inside_inner_label_window (test_advanced.AdvancedTests.test_frequency_target_uses_all_counts_inside_inner_label_window) ... ok
+test_habit_features_normalize_supply_and_exclude_future (test_advanced.AdvancedTests.test_habit_features_normalize_supply_and_exclude_future) ... ok
+test_item_metadata_uses_past_labels_and_future_timing_only (test_advanced.AdvancedTests.test_item_metadata_uses_past_labels_and_future_timing_only) ... ok
+test_nested_training_labels_end_before_outer_holdout (test_advanced.AdvancedTests.test_nested_training_labels_end_before_outer_holdout) ... ok
+test_normalization_accepts_integer_popularity (test_advanced.AdvancedTests.test_normalization_accepts_integer_popularity) ... ok
+test_partial_views_are_continuous_and_causal (test_advanced.AdvancedTests.test_partial_views_are_continuous_and_causal) ... ok
+test_soft_clock_wraps_midnight_and_trend_ignores_future (test_advanced.AdvancedTests.test_soft_clock_wraps_midnight_and_trend_ignores_future) ... ok
+test_common_fallback (test_protocol.ProtocolTests.test_common_fallback) ... ok
+test_directional_association_and_no_self_rule (test_protocol.ProtocolTests.test_directional_association_and_no_self_rule) ... ok
+test_empty_user_policy (test_protocol.ProtocolTests.test_empty_user_policy) ... ok
+test_half_open_overlap (test_protocol.ProtocolTests.test_half_open_overlap) ... ok
+test_hand_ap (test_protocol.ProtocolTests.test_hand_ap) ... ok
+test_nested_interval_union (test_protocol.ProtocolTests.test_nested_interval_union) ... ok
+test_no_feature_from_id (test_protocol.ProtocolTests.test_no_feature_from_id) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.169s
+
+OK

@@ -1,0 +1,32 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "ranker_config": "configs/lambdarank.json",
+  "vocabulary_cutoff_exclusive": "2020-03-23 00:00:00",
+  "variants": [
+    {
+      "name": "combined86_reference",
+      "objective": "lambdarank",
+      "num_leaves": 15
+    },
+    {
+      "name": "rank86_trees100",
+      "objective": "lambdarank",
+      "num_leaves": 15,
+      "n_estimators": 100
+    },
+    {
+      "name": "rank86_top5",
+      "objective": "lambdarank",
+      "num_leaves": 15,
+      "n_estimators": 100,
+      "lambdarank_truncation_level": 5
+    },
+    {
+      "name": "binary86",
+      "objective": "binary",
+      "num_leaves": 15
+    }
+  ],
+  "fixed": "Same86 features, candidates and nested windows. Compare top5 truncation with100-tree control and pointwise binary membership objective. Other parameters unchanged.",
+  "selection": "Highest mean historical MAP@5, frozen v5 reference must reproduce; no reserve-user labels used for tuning."
+}

@@ -1,0 +1,9 @@
+{
+  "base":"combined86_reference",
+  "partners":["v4_hgb","combined86_leaf31","combined86_xendcg"],
+  "partner_weights":[0.25,0.5],
+  "rank_offset":1,
+  "input":"Frozen top-5 historical lists; union candidates stays within common legal pool; shared popularity tie-break",
+  "criterion":"Same mean of three historical MAP@5; no private-score fitting; no reserve cohort retuning",
+  "rationale":"Check whether classifiers and alternative ranking objectives make complementary ordering errors before spending a fifth attempt"
+}

@@ -1,0 +1,16 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "extra_users_per_inner_window": 1000,
+  "batch_size": 500,
+  "min_past_qualified_events": 5,
+  "reserve_non_template_user_id_mod5_zero": true,
+  "cohort_selection": "Non-template users with >=5 qualified events before the inner anchor; descending past event count, then user_id; no future labels used",
+  "variants": [
+    "template_only_reference",
+    "augmented_population",
+    "population_fusion50"
+  ],
+  "fixed": "Original 45 features, candidate lists, HGB 100 iterations/15 leaves and temporal protocol",
+  "selection": "Highest mean MAP@5 over same three historical splits; require improvement over v4 to consider a submission",
+  "private_score_used_for_hyperparameter_selection": false
+}

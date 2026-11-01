@@ -1,0 +1,55 @@
+{
+  "method": "nested_hgb_weight1.0",
+  "mean_map5": 0.4158239315478535,
+  "split_scores": {
+    "early_10w": 0.44312028709003365,
+    "original_10w": 0.41902934841141637,
+    "late_6w": 0.3853221591421105
+  },
+  "folder": "runs/v10_category",
+  "config": "configs/nested_category.json",
+  "classifier_score_weight": 1.0,
+  "criterion": "Highest mean across three historical rolling splits; same overlap and selection-bias caveats",
+  "private_score_used_for_parameter_selection": false,
+  "private_score": null,
+  "parameters": {
+    "seed": 42,
+    "inner_min_train_days": 14,
+    "inner_step_days": 14,
+    "inner_max_forecast_days": 56,
+    "inner_min_forecast_days": 14,
+    "candidate_top_k": {
+      "v2": 40,
+      "raw_time": 100,
+      "repeat": 40,
+      "item_cosine": 50,
+      "content": 30,
+      "association": 30,
+      "popularity": 20
+    },
+    "estimator": {
+      "learning_rate": 0.07,
+      "max_iter": 100,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 100,
+      "l2_regularization": 10,
+      "early_stopping": false
+    },
+    "blends": [
+      1.0,
+      0.5
+    ],
+    "label": "Membership in next-window top-5 qualified programme IDs; never outer validation labels",
+    "features": "Original 39 plus six past-category features: known flag, long/recent share, recent trend, soft category-clock affinity and lift; 45 total",
+    "candidate_pool": "Same legal pool; wider candidate generation with unchanged scoring features and classifier settings",
+    "rationale": "Student hypothesized mixed child/adult use of one account. Historical heavy-user Kids share varies by time of day. Test category/time interactions without claiming viewer identities or using future category labels.",
+    "selection": "Mean of the same three historical rolling MAP@5 values; report coverage, all split scores and tradeoffs",
+    "reference": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html",
+    "category_context": {
+      "sigma_hours": 3,
+      "prior_events": 5,
+      "half_life_days": 28
+    },
+    "unknown_future_categories": "Unknown if no pre-cutoff metadata; do not read category from future schedule"
+  }
+}

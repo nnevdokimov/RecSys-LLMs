@@ -1,0 +1,14 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "vocabulary_cutoff_exclusive": "2020-03-23 00:00:00",
+  "top_genres": 20,
+  "variants": [
+    "metadata_control45",
+    "metadata_full",
+    "metadata_fusion50"
+  ],
+  "fixed": "Same 100-iteration/15-leaf HGB, same candidates and temporal protocol",
+  "rationale": "The learner has category shares and scalar CBF similarity but no explicit category/genre identity or airing duration. Test these interpretable programme features.",
+  "future_fields": "ID, channel, start/end/duration only. Category and genres always retrieved from s<cutoff; vocabulary fitted by the first inner anchor.",
+  "selection": "Mean over same three historical splits; no private-score fitting"
+}

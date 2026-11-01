@@ -1,0 +1,142 @@
+[
+  {
+    "path": "tmp/submission_v7_repeat0.csv",
+    "rows": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "five_unique_positive_candidate_ids": true,
+    "template_user_order_preserved": true,
+    "sha256": "dfd529c818fef68b0cf94b24a66b223595dcb8713d1a56c024f41d3b6cc152ae",
+    "repeat": 0,
+    "fit_predict_seconds": 21.274067166999885,
+    "all_ids_in_literal_test_schedule": true,
+    "fit_audit": {
+      "outer_cutoff": "2020-07-27 00:00:00",
+      "inner_windows": [
+        {
+          "feature_cutoff": "2020-03-23 00:00:00",
+          "label_end": "2020-05-18 00:00:00",
+          "rows": 154684
+        },
+        {
+          "feature_cutoff": "2020-04-06 00:00:00",
+          "label_end": "2020-06-01 00:00:00",
+          "rows": 157704
+        },
+        {
+          "feature_cutoff": "2020-04-20 00:00:00",
+          "label_end": "2020-06-15 00:00:00",
+          "rows": 161242
+        },
+        {
+          "feature_cutoff": "2020-05-04 00:00:00",
+          "label_end": "2020-06-29 00:00:00",
+          "rows": 160734
+        },
+        {
+          "feature_cutoff": "2020-05-18 00:00:00",
+          "label_end": "2020-07-13 00:00:00",
+          "rows": 162504
+        },
+        {
+          "feature_cutoff": "2020-06-01 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 166977
+        },
+        {
+          "feature_cutoff": "2020-06-15 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 165945
+        },
+        {
+          "feature_cutoff": "2020-06-29 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 163822
+        },
+        {
+          "feature_cutoff": "2020-07-13 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 160765
+        }
+      ],
+      "outer_labels_used_in_fit": false,
+      "training_rows": 1454377,
+      "query_count": 10783,
+      "group_sum_equals_rows": true,
+      "label_rule": "Top5 membership gains 5..1 by inner future frequency rank; evaluation binary MAP@5 unchanged",
+      "rank_fit_seconds": 10.941521374999866
+    }
+  },
+  {
+    "path": "tmp/submission_v7_repeat1.csv",
+    "rows": 1260,
+    "columns": [
+      "user_id",
+      "tv_show_id"
+    ],
+    "five_unique_positive_candidate_ids": true,
+    "template_user_order_preserved": true,
+    "sha256": "dfd529c818fef68b0cf94b24a66b223595dcb8713d1a56c024f41d3b6cc152ae",
+    "repeat": 1,
+    "fit_predict_seconds": 21.17377504199976,
+    "all_ids_in_literal_test_schedule": true,
+    "fit_audit": {
+      "outer_cutoff": "2020-07-27 00:00:00",
+      "inner_windows": [
+        {
+          "feature_cutoff": "2020-03-23 00:00:00",
+          "label_end": "2020-05-18 00:00:00",
+          "rows": 154684
+        },
+        {
+          "feature_cutoff": "2020-04-06 00:00:00",
+          "label_end": "2020-06-01 00:00:00",
+          "rows": 157704
+        },
+        {
+          "feature_cutoff": "2020-04-20 00:00:00",
+          "label_end": "2020-06-15 00:00:00",
+          "rows": 161242
+        },
+        {
+          "feature_cutoff": "2020-05-04 00:00:00",
+          "label_end": "2020-06-29 00:00:00",
+          "rows": 160734
+        },
+        {
+          "feature_cutoff": "2020-05-18 00:00:00",
+          "label_end": "2020-07-13 00:00:00",
+          "rows": 162504
+        },
+        {
+          "feature_cutoff": "2020-06-01 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 166977
+        },
+        {
+          "feature_cutoff": "2020-06-15 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 165945
+        },
+        {
+          "feature_cutoff": "2020-06-29 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 163822
+        },
+        {
+          "feature_cutoff": "2020-07-13 00:00:00",
+          "label_end": "2020-07-27 00:00:00",
+          "rows": 160765
+        }
+      ],
+      "outer_labels_used_in_fit": false,
+      "training_rows": 1454377,
+      "query_count": 10783,
+      "group_sum_equals_rows": true,
+      "label_rule": "Top5 membership gains 5..1 by inner future frequency rank; evaluation binary MAP@5 unchanged",
+      "rank_fit_seconds": 11.017195500000525
+    }
+  }
+]

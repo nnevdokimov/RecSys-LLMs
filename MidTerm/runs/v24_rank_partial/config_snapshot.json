@@ -1,0 +1,12 @@
+{
+  "feature_config": "configs/nested_partial.json",
+  "rank_parameters": "runs/v5_candidate/selection.json",
+  "vocabulary_cutoff_exclusive": "2020-03-23 00:00:00",
+  "variants": [
+    "expanded_candidates_control86",
+    "expanded_partial96"
+  ],
+  "fixed": "Same LambdaRank150 leaf15 as v5; same inner windows, labels and legal pool. Compare ten partial-view columns with control on identical expanded candidates.",
+  "selection": "Same historical three-split mean; no reserve cohort or private labels for tuning",
+  "rationale": "Partial signals failed with HGB45; test interaction with the stronger pairwise ranker and existing habit/category features. Short view is not called dislike or proof of interest."
+}

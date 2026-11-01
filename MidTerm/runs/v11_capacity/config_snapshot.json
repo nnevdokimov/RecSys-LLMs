@@ -1,0 +1,25 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "reference": {
+    "name": "hgb100_leaf15",
+    "max_iter": 100,
+    "max_leaf_nodes": 15
+  },
+  "variants": [
+    {
+      "name": "hgb300_leaf15",
+      "max_iter": 300,
+      "max_leaf_nodes": 15
+    },
+    {
+      "name": "hgb300_leaf31",
+      "max_iter": 300,
+      "max_leaf_nodes": 31
+    }
+  ],
+  "fixed": "Same 45 features, candidate sets, internal windows, loss, learning rate 0.07, min leaf 100, L2=10, seed 42; pure reranker",
+  "rationale": "Test whether the current small tree ensemble underfits interactions; nested validation must expose any overfit on limited early history",
+  "selection": "Mean of all three predefined historical outer MAP@5 values; no new submission unless better than v4 reference",
+  "prior_private_score_used_only_for_goal_tracking": true,
+  "private_score_used_for_hyperparameter_selection": false
+}

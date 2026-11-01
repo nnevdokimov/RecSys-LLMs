@@ -1,0 +1,12 @@
+test_common_fallback (test_protocol.ProtocolTests.test_common_fallback) ... ok
+test_directional_association_and_no_self_rule (test_protocol.ProtocolTests.test_directional_association_and_no_self_rule) ... ok
+test_empty_user_policy (test_protocol.ProtocolTests.test_empty_user_policy) ... ok
+test_half_open_overlap (test_protocol.ProtocolTests.test_half_open_overlap) ... ok
+test_hand_ap (test_protocol.ProtocolTests.test_hand_ap) ... ok
+test_nested_interval_union (test_protocol.ProtocolTests.test_nested_interval_union) ... ok
+test_no_feature_from_id (test_protocol.ProtocolTests.test_no_feature_from_id) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.072s
+
+OK

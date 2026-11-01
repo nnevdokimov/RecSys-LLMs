@@ -1,0 +1,86 @@
+{
+  "early_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "combined86_reference": 2.552885916997184,
+      "rank86_leaf7": 3.8636423330026446,
+      "rank86_trees100": 2.0324829579985817,
+      "rank86_trees200": 3.2890433330030646
+    },
+    "group_sum_equals_rows": true
+  },
+  "original_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "combined86_reference": 4.881529833000968,
+      "rank86_leaf7": 4.197843416000978,
+      "rank86_trees100": 3.4049328330002027,
+      "rank86_trees200": 6.243963834000169
+    },
+    "group_sum_equals_rows": true
+  },
+  "late_6w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "fit_seconds": {
+      "combined86_reference": 6.774838500001351,
+      "rank86_leaf7": 5.849724292002065,
+      "rank86_trees100": 5.137622249996639,
+      "rank86_trees200": 9.969776791000186
+    },
+    "group_sum_equals_rows": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "ranker_config": "configs/lambdarank.json",
+  "vocabulary_cutoff_exclusive": "2020-03-23 00:00:00",
+  "variants": [
+    "rank_control45",
+    "rank_habit56",
+    "rank_combined86"
+  ],
+  "fixed": "150 trees, 15 leaves, same LightGBM settings and candidates; no retuning the ranking hyperparameters",
+  "rationale": "Combine individually checked weekly persistence and item metadata with query-wise ranking; evaluate each feature increment separately",
+  "selection": "Mean of same three historical MAP@5 values; all tradeoffs retained"
+}

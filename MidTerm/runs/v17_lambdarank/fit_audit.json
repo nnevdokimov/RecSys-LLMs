@@ -1,0 +1,89 @@
+{
+  "early_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-04-20 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "query_count": 2300,
+    "training_rows": 303111,
+    "group_sum_equals_rows": true,
+    "fit_seconds": {
+      "reference": 2.369674417001079,
+      "lambdarank150_leaf15": 2.1293090830004076,
+      "lambdarank150_leaf31": 2.496490249999624
+    }
+  },
+  "original_10w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "query_count": 4696,
+    "training_rows": 628676,
+    "group_sum_equals_rows": true,
+    "fit_seconds": {
+      "reference": 4.562578125001892,
+      "lambdarank150_leaf15": 4.115604708000319,
+      "lambdarank150_leaf31": 4.616118750000169
+    }
+  },
+  "late_6w": {
+    "inner_windows": [
+      {
+        "feature_cutoff": "2020-03-23 00:00:00",
+        "label_end": "2020-05-18 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-06 00:00:00",
+        "label_end": "2020-06-01 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-04-20 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-04 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-05-18 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      },
+      {
+        "feature_cutoff": "2020-06-01 00:00:00",
+        "label_end": "2020-06-15 00:00:00"
+      }
+    ],
+    "outer_labels_used_in_fit": false,
+    "query_count": 6538,
+    "training_rows": 878699,
+    "group_sum_equals_rows": true,
+    "fit_seconds": {
+      "reference": 6.232711625001684,
+      "lambdarank150_leaf15": 5.485757582999213,
+      "lambdarank150_leaf31": 6.199778416001209
+    }
+  }
+}

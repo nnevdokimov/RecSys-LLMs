@@ -1,0 +1,4 @@
+{
+  "lightgbm": "4.7.0",
+  "libomp_preexisting": true
+}

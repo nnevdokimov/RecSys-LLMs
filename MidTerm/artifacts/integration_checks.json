@@ -1,0 +1,11 @@
+{
+  "sampled_unions_checked_independently": 200,
+  "python_union_equals_sql_for_all_sampled": true,
+  "previous_duplicate_clip_failure_fraction_after_fix": 1.0,
+  "all_fractions_in_0_1": true,
+  "logical_cpu_count": 11,
+  "users_without_any_80pct_history": 73,
+  "schedule_rows_overlapping_prior_airing_on_same_channel": 13,
+  "logs_with_80pct_matched_airing": 523911,
+  "future_metadata_excluded_by_real_loader_test": true
+}

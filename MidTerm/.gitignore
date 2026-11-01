@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+sweettv-tv-program-recommender/
+artifacts/*.duckdb*
+artifacts/*.parquet
+tmp/
+output/session/
+runs/*/predictions.json
+.DS_Store
+
+# Never publish original AI-session exports in the repository.
+output/delivery/
+
+# Source slides stay local; large per-user validation exports are reproducible.
+/LLM4Rec. Midterm Quiz.pptx
+**/validation_predictions.json
+runs/*/reserve_predictions.json
+runs/*/reserve_cohort.json

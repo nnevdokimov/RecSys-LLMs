@@ -1,0 +1,20 @@
+[
+  {
+    "method": "partial_candidates_control45",
+    "mean_map5": 0.41580855383065646,
+    "split_scores": {
+      "early_10w": 0.44421754338148445,
+      "original_10w": 0.41843362950996227,
+      "late_6w": 0.38477448860052266
+    }
+  },
+  {
+    "method": "partial_full55",
+    "mean_map5": 0.4148342840913101,
+    "split_scores": {
+      "early_10w": 0.4418513218860725,
+      "original_10w": 0.41874371746544614,
+      "late_6w": 0.3839078129224115
+    }
+  }
+]

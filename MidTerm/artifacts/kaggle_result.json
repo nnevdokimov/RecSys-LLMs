@@ -1,0 +1,19 @@
+{
+  "competition": "sweettv-tv-program-recommender",
+  "account": "nickevdokimov",
+  "status": "Complete (after deadline)",
+  "private_score": 0.40716,
+  "public_score": 0.41523,
+  "submitted_at_msk": "2026-10-29 21:51:46",
+  "submitted_by": "user via Kaggle browser; agent checked result",
+  "file": "artifacts/final_submission.csv",
+  "sha256": "f6f31a19e73b0b6f93db5cc63f116a6136cb515763552c97948462c979086ea5",
+  "downloaded_file_sha256": "f6f31a19e73b0b6f93db5cc63f116a6136cb515763552c97948462c979086ea5",
+  "downloaded_file_matches_exactly": true,
+  "screenshot": "artifacts/kaggle_private_score.jpg",
+  "source_url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/submissions",
+  "submissions_remaining_before": 100,
+  "submissions_remaining_after": 99,
+  "additional_submissions_by_agent": 0,
+  "selection_based_on_holdout_not_private_score": true
+}

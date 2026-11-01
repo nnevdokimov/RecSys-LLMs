@@ -1,0 +1,188 @@
+{
+  "cutoff": "2020-05-18",
+  "note": "Training events only; past modal category; grouping by airing start. Display ranges are descriptive, not inferred viewers.",
+  "rows": [
+    {
+      "user_id": "10500740270951698446",
+      "category": "Детям",
+      "daypart": "вечер 17–23",
+      "events": 315,
+      "viewing_hours": 93.21
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Детям",
+      "daypart": "день 12–17",
+      "events": 211,
+      "viewing_hours": 55.32
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Детям",
+      "daypart": "ночь 23–05",
+      "events": 28,
+      "viewing_hours": 6.01
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Детям",
+      "daypart": "утро 05–12",
+      "events": 75,
+      "viewing_hours": 19.75
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Другое",
+      "daypart": "вечер 17–23",
+      "events": 8,
+      "viewing_hours": 4.14
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Другое",
+      "daypart": "ночь 23–05",
+      "events": 1,
+      "viewing_hours": 0.66
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Инфо",
+      "daypart": "вечер 17–23",
+      "events": 50,
+      "viewing_hours": 47.33
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Инфо",
+      "daypart": "день 12–17",
+      "events": 12,
+      "viewing_hours": 4.84
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Инфо",
+      "daypart": "ночь 23–05",
+      "events": 7,
+      "viewing_hours": 1.98
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Инфо",
+      "daypart": "утро 05–12",
+      "events": 51,
+      "viewing_hours": 13.51
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Познавательное",
+      "daypart": "вечер 17–23",
+      "events": 3,
+      "viewing_hours": 6.28
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Познавательное",
+      "daypart": "день 12–17",
+      "events": 7,
+      "viewing_hours": 6.81
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Познавательное",
+      "daypart": "утро 05–12",
+      "events": 8,
+      "viewing_hours": 11.65
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Развлечения",
+      "daypart": "вечер 17–23",
+      "events": 17,
+      "viewing_hours": 13.6
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Развлечения",
+      "daypart": "день 12–17",
+      "events": 5,
+      "viewing_hours": 1.96
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Развлечения",
+      "daypart": "ночь 23–05",
+      "events": 1,
+      "viewing_hours": 0.68
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Развлечения",
+      "daypart": "утро 05–12",
+      "events": 28,
+      "viewing_hours": 18.94
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Сериалы",
+      "daypart": "вечер 17–23",
+      "events": 23,
+      "viewing_hours": 20.97
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Сериалы",
+      "daypart": "день 12–17",
+      "events": 4,
+      "viewing_hours": 7.41
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Сериалы",
+      "daypart": "ночь 23–05",
+      "events": 2,
+      "viewing_hours": 1.5
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Сериалы",
+      "daypart": "утро 05–12",
+      "events": 8,
+      "viewing_hours": 4.91
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Фильмы",
+      "daypart": "вечер 17–23",
+      "events": 15,
+      "viewing_hours": 27.04
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Фильмы",
+      "daypart": "день 12–17",
+      "events": 15,
+      "viewing_hours": 21.63
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Фильмы",
+      "daypart": "ночь 23–05",
+      "events": 3,
+      "viewing_hours": 4.34
+    },
+    {
+      "user_id": "10500740270951698446",
+      "category": "Фильмы",
+      "daypart": "утро 05–12",
+      "events": 7,
+      "viewing_hours": 11.03
+    },
+    {
+      "user_id": "12453026253397466416",
+      "category": "Развлечения",
+      "daypart": "утро 05–12",
+      "events": 1,
+      "viewing_hours": 0.74
+    }
+  ]
+}

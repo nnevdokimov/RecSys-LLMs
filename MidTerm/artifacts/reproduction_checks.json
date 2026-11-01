@@ -1,0 +1,9 @@
+{
+  "fresh_model_refit": true,
+  "identical_file_sha256": {
+    "validation_predictions.json": true,
+    "final_submission.csv": true
+  },
+  "input_hashes": "data_audit.json",
+  "note": "Timing values can differ. Predictions and per-user AP exactly reproduced."
+}

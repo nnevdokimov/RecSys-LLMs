@@ -1,0 +1,31 @@
+{
+  "feature_config": "configs/nested_category.json",
+  "ranker_config": "configs/lambdarank.json",
+  "vocabulary_cutoff_exclusive": "2020-03-23 00:00:00",
+  "variants": [
+    {
+      "name": "combined86_reference",
+      "objective": "lambdarank",
+      "num_leaves": 15
+    },
+    {
+      "name": "rank86_leaf7",
+      "objective": "lambdarank",
+      "num_leaves": 7
+    },
+    {
+      "name": "rank86_trees100",
+      "objective": "lambdarank",
+      "num_leaves": 15,
+      "n_estimators": 100
+    },
+    {
+      "name": "rank86_trees200",
+      "objective": "lambdarank",
+      "num_leaves": 15,
+      "n_estimators": 200
+    }
+  ],
+  "fixed": "Same 86 features, candidates, learning rate0.07, minleaf100, L2=10, seed42. Bounded check lower capacity and adjacent tree count. No early stopping or outer labels in fit.",
+  "selection": "Highest mean historical MAP@5, frozen v5 reference must reproduce; no reserve-user labels used for tuning."
+}

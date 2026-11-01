@@ -1,0 +1,10 @@
+{
+  "feature_config":"configs/nested_category.json",
+  "loss":"poisson",
+  "target":"100 * qualified future event count for item / all qualified future event counts for user within INNER label window",
+  "fixed":"Original 45 features, same candidates, same classifier reference; HGB regressor 100 iterations, 15 leaves, lr0.07, L2=10, min_leaf100, seed42, early_stopping=false",
+  "variants":["frequency_classifier_reference","frequency_poisson","frequency_fusion50"],
+  "rationale":"Use programme frequency information below the Top-5 boundary; per-user proportions avoid domination by high-activity accounts",
+  "selection":"Same three outer MAP@5 values, not regression training loss or private score",
+  "source":"https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "method": "clock4h_weekday7",
+    "mean_map5": 0.40704464194765216,
+    "split_scores": {
+      "early_10w": 0.43964499863723083,
+      "original_10w": 0.4102194399569198,
+      "late_6w": 0.371269487248806
+    }
+  },
+  {
+    "method": "clock2h_weekday7",
+    "mean_map5": 0.4070082415540157,
+    "split_scores": {
+      "early_10w": 0.4401726174252748,
+      "original_10w": 0.41031479985639924,
+      "late_6w": 0.37053730738037305
+    }
+  },
+  {
+    "method": "clock1h_weekend21",
+    "mean_map5": 0.40635972014813543,
+    "split_scores": {
+      "early_10w": 0.4384736985554647,
+      "original_10w": 0.4087486537425956,
+      "late_6w": 0.37185680814634586
+    }
+  },
+  {
+    "method": "v2_reference",
+    "mean_map5": 0.4062247001692214,
+    "split_scores": {
+      "early_10w": 0.43829721995094034,
+      "original_10w": 0.40922792137856756,
+      "late_6w": 0.37114895917815627
+    }
+  },
+  {
+    "method": "clock2h_weekend21",
+    "mean_map5": 0.4057520939343995,
+    "split_scores": {
+      "early_10w": 0.4378858907967657,
+      "original_10w": 0.4095393555914558,
+      "late_6w": 0.369831035414977
+    }
+  }
+]

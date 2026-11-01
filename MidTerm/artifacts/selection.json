@@ -1,0 +1,16 @@
+{
+  "selected": "hybrid60_20_20_static_repeat",
+  "selection_metric": "primary hold-out MAP@5",
+  "selection_uses_private_score": false,
+  "delta_vs_popularity": 0.10916442290432599,
+  "paired_bootstrap_95_percentile_interval": [
+    0.098187651453958,
+    0.1206148413660025
+  ],
+  "interval_caveat": "Descriptive same hold-out interval after model selection, not corrected for selection/multiple comparisons.",
+  "delta_vs_repeat": 0.004839795368874529,
+  "paired_interval_vs_repeat": [
+    -0.00016537089391491656,
+    0.009863938251660381
+  ]
+}
